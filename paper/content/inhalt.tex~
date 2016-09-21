@@ -1,0 +1,684 @@
+% !TEX root = ../main.tex
+
+\chapter{Introduction} \label{str:intro}
+
+%ORIGINALTEXT This report aims to provide a multidimensional analysis of the housing conditions within Malawi and examine the potential use of \ac{EBH} as a solution. 
+%With regard to the dimensions of 
+%sustainable, environmental-friendly, economic and social 
+
+%Johan: Research questions einfügen		
+
+\chapter{Background: Housing Challenges in Malawi and Earth Bag Houses} \label{str:background}
+
+%ORIGINALTEXT A place to stay or adequate housing can be seen as a basic human need. However, the term \textit{adequate housing} leaves space for interpretations and different viewpoints on what is sufficient. To develop a clear understanding, the \ac{UN} approach towards \textit{adequate housing} will be outlined briefly, before the challenges and policy efforts in Malawi will be described and a short introduction on the history and range of application of \acp{EBH} is given.
+
+%ORIGINALTEXT In international human rights law, housing is mentioned in various declarations, laws and other documents \citep{udhr,UN2009}. E.g. the universal declaration of human rights points out that
+%ORIGINALTEXT \begin{lzitat}"everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services"
+%, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control. \citep[art. 25]{udhr}
+%ORIGINALTEXT \end{lzitat} 
+%ORIGINALTEXT While this formulation emphasizes well-being and health, it remains on an abstract level. The normative objectives that are attached to adequate housing are described more precisely in another report\footnote{However, in the \citet{UN2009} report non-desirable aspects with regard to adequate are described mainly. To facilitate further discussion, here these objectives have been reinterpreted and reformulated as positive, normative requirements regarding adequate housing.} as the freedom, to choose the place of residence, the absence of arbitrary powers and protection against displacement or forced eviction \citep[1]{UN2009}.
+%ORIGINALTEXT Everyone should be entitled to access adequate housing equally and without facing discrimination, while being able to participate in housing-related decisions within the broader community.
+%ORIGINALTEXT Furthermore, habitability means that the house guarantees physical safety and protects against extreme weather conditions and other health-threatening external factors (e.g. pollution or dangerous environments).
+%ORIGINALTEXT The interests of marginalized or disadvantaged groups have to be taken into account and the housing option needs to be affordable\footnote{Affordability in this sense means, that no other human rights are out of reach due to high housing costs \citep{UN2009}.}. At the same time, adequate housing should enable the inhabitants to participate in the economic sphere. Employment, healthcare, schools and other social services should be available, as well as basic infrastructur (e.g. water and energy supply). Additionally, housing options should respect and take into account the expressed local cultural identity \citep[3ff]{UN2009}.
+
+%ORIGINALTEXT However, these rights can lead to common misunderstandings. Despite these rights exist for everyone, states are not required to ensure adequate housing options for the whole population. Adequate housing doesn't inherit a right to property or land, nor prohibits development projects that include the displacement of people \citep[6ff]{UN2009}. 
+
+%ORIGINALTEXT These aspects towards adequate housing can be taken into account as one normative framework while discussing housing options for Malawi. The practical consideration of all mentioned aspects in a specific housing solution can therefore be seen as an desirable objective. However, the improvement of specific aspects, while others will be reached in the long-term perspective only, can be seen as a success as well. 
+%ORIGINALTEXT Keeping in mind this understanding of adequate housing, housing challenges and responses in Malawi will be outlined briefly in the following section, before the concept of \ac{EBH} will be discussed as one possible solution that adresses these problems. 
+
+% #adequate housing important - basic shelter as interim solution 
+%Therefore, it is important to enable people to live within safe houses. 
+
+\section{Housing Challenges and Responses in Malawi} \label{str:challenges_malawi}
+
+ \citep{mgov2015}
+
+\subsection{Housing Challenges and Hazards} \label{str:challenges_hazards}
+
+
+\subsection{Housing and Disaster Management Policies in Malawi} \label{str:policies}
+
+
+\section{Approaches to Earth Bag Houses} \label{str:earthbag_houses}
+% Malte: This section it can be introduced why earth bag houses can be used to meet the mentioned challenges.
+% Malte: In chapter str:tse, we can then analyse the different forms of earth bag constructions
+
+
+\chapter{Evaluation of the \ac*{NPH} Project} \label{str:evaluation}
+% Malte: The above learned lessons from technical, social and economic analysis can be applied here to evaluate Nature PRO House. That's why I have put this chapter in at the bottom.
+% Johan: From my point of view it makes sense to place this chapter here, because it identifies problems etc. that can be adressed in the following chapters/sections.
+
+\section{Project History}
+
+As a response to heavy rainfalls and floods in early 2015, that affected the community villages of Dzenje (in Phalombe district, south-eastern Malawi), the \ac{NPH} project was established. 
+The approach was "to use a cheaper, quicker, eco-friendly, resilience-enhancing, more sustainable housing technique" \citep[4]{naturePROhouse2015} \todo{Entscheidung Zitation Seitenzahlen ("p. 2" vs "2")} and thereby focus on two aims regarding the social impact. On the one hand, the implementation should train the local community in challenging the repeating weather extremes and housing problems through the usage of an innovative technology. On the other hand, this process of capacity building within the community should be realized by young, unemployed Malawians and offer them an opportunity for self-employment in the field of \acp{EBH}. A group of ten young Malawians was trained and built \acp{EBH} in groups of two with the support of the beneficiaries, relatives and friends in the community.
+The project was realized in the community of Dzenje and was facilitated by a strong, already established cooperation between RENAMA and the community members through a rural energy kiosk project
+%# evtl. Quelle / Projektbeschreibung Energy Kiosk einfügen? 
+.
+
+Instead of focussing on permanent housing solutions, the project aimed to enable people in the community to find immediate emergency solutions. % Malte: Ich würde nicht sagen "instead", denn ursprünglich war auch permanent housing beabsichtigt!
+\ac{EBH} are considered as flood and hurricane proof and can stand fire and earthquake events, which makes them one possible solution to provide safe space in case of external hazards. 
+However, there is limited knowledge on the practical implementation of \ac{EBH} in the specific context. Beside the mentioned aim, the \ac{NPH} project can be seen as an attempt to gather important insights on the possible use of the technology, when facing recurring external hazards and threats in this specific case and to identify further use cases.
+
+The project was funded by the Scottland-Malawi-Partnership 
+% #EINFÜGEN? with a 3000 GBP grant 
+and implemented in between July and the end of October 2015. Ten model houses were built in Dzenje and handed over to community-selected beneficiaries. 
+To investigate the impact of the project, best-practices and problems, an evaluation
+\footnote{The evaluation project was undertaken in the context of the ASA-program, and funded by Engagement Global gGmbH, Berlin (Germany).}
+ was undertaken in August 2016. This report gives an overview on the findings, as well as technical options when constructing \acp{EBH}.
+ 
+In a final project report it was already mentioned, that cracks appeared on the plastering of all houses two months after construction \citep[8]{naturePROhouse2015}. Furthermore, a few houses already collapsed.  
+Therefore, the evaluation tries to provide a better understanding, which problems occurred in detail during the project and which experiences the beneficiaries had with \acp{EBH}.
+
+
+\section{Evaluation Approach}\label{str_evaluation_approach}
+
+\todo{Zeitform vereinheitlichen}The aim of the evaluation is to understand the experiences of the beneficiaries and to keep records of problems, that appeared after construction of \ac{EBH} in the \ac{NPH} project. 
+% Malte: ...and the identifications of further reasons/problems... Oder warum grenzt Du die Evaluierung so stark von dem anderen ab?
+Furthermore, the beneficiaries ideas for improvement and their current situation should be examined in the evaluation. 
+The research questions can therefore be summarized as following:
+\begin{itemize}
+\item{What are the \textbf{experiences} of the beneficiaries with their \acp{EBH}?}
+\item{Which \textbf{problems} occurred since the construction of the \acp{EBH}?}
+\item{What has to be \textbf{improved} according to the beneficiaries?}
+\item{What is the \textbf{current situation} of the beneficiaries?}
+\end{itemize}
+
+To conduct the evaluation, interviews with the all beneficiaries within the \ac{NPH} project were planned. % Malte: ...and conducted.
+First, knowledge on housing challenges (including extreme weather events) in rural Malawi was gathered and summarized in a theoretical approach. In a second step, the interviews were planned and an interview guideline, \todo{Vereinheitlichen ..., that vs. ... that}
+% Malte: Ich würde nie ein Komma for that stellen.
+ that covers all relevant aspects of the evaluation was developed. During the field phase, the beneficiaries were interviewed in the community of Dzenje. The notes were reflected in a content analysis, which included an inductive creation of categories and the discussion of these categories. All steps will be explained in the following paragraphs in detail. 
+
+The preparation of the interview began with a knowledge creation process. Relevant literature on challenges in rural Malawi included reports of the government and international organizations and was used as a starting point, to understand some problems, people are facing\footnote{A short summary can be found in chapter \ref{str:background}, p. \pageref{str:background}.}. The literature included 
+% Malte: Still does! -> Präsens
+best practice approaches towards climate change mitigation and adaptation, as well as information on the recent 2015 floods within several districts in Malawi. 
+At the same time, knowledge on \ac{EBH} was gathered, using various resources such as constructional drawings, field reports and other texts \todo{Verweis str earthbag houses und str tse}. 
+
+The interview guideline covered relevant topics for the evaluation. The topics are closely related to the research questions. They can be seen as the general area of interest and should be discussed whenever possible. 
+%Reihenfolge der Fragen
+To create a welcoming and natural conversation atmosphere, the questions were not posed in a pre-defined order. Instead, the topics were covered during the interview. This allowed follow-up and more specific questions with regard to one topic a interviewee was talking about, instead of sticking to a strict order of questions.
+%Experiences in General
+One topic was the general experiences with \acp{EBH}. The aim of this question is, to gain an overview on the experienced positive and negative aspects of \acp{EBH}. 
+%Problems
+In the next step, the difficulties were discussed more in detail. While all mentioned problems were noted, the main difficulties and the order of their appearance was interesting, as it is crucial for a more detailed analysis and possible solutions. 
+%Improvements
+The interviewees had hands-on experiences with \acp{EBH} and may have developed some ideas to improve the houses. To develop a better practice for building \ac{EBH} in rural Malawi, it is valuable to include this local knowledge. Therefore, the questions on improvement were implemented within the questionnaire guideline.
+From these questions we expected to find solutions or ideas of improvement, that can be considered in future projects.
+%current situation
+Besides the aspects regarding the buildings, it was also important to understand the interviewee's current situation. The answers helped to evaluate the social impact of the \ac{NPH} project.
+This guidelines allowed us to cover all main aspects of interest for the evaluation project and was used during the interviews, while being open to slight adaptations in case unforeseen circumstances or experiences advised the researchers to do so. 
+
+%Durchführung - Übersetzung
+Three researchers travelled to Dzenje in Phalombe district and conducted ten interviews with the beneficiaries of the \ac{NPH} project between August 11-13th, 2016. One of them was the field coordinator and translated the interviews. All interviews took place on-site where the \ac{EBH} stands (or stood). The questions were posed by the interviewers and all researchers took notes on the answers\todo{obviously - noch präzisieren}.
+The notes were compared after returning from the field phase and iteratively merged together to one document with all noted aspect. This step uncovered little differences in the researchers notes, that were discussed subsequently. As a result, minutes of each interview were created and used for further analysis. 
+Photos of the current state of the \ac{NPH} \acp{EBH} were taken and helped to evaluate the current situation and possible problems.
+Together with the notes from the interviews during the field phase in Dzenje, the photos were the basis for further analysis of the \ac{EBH} project.
+
+%Auswertungsmethode
+To evaluate the \ac{NPH} project and to reduce complexity within the dataset, a content analysis of the interview notes was conducted. Therefore, a inductive creation of categories within the main categories, which result from the research questions was carried out. 
+%The main categories are the experiences with \ac{EBH}, problems, ideas for improvement and current situation. 
+The aim was to categorize the noted information on a higher level of abstraction and to find similarities and differences between the interviews. 
+Resemblance and contrasts sharpen the view on the subject and allow a deeper understanding of experiences, problems and the situation of the interviewees. This procedure is similar to the proposed approach by \citet[77]{kuckartz2012} and helped to describe the empirical situation without many presumptions.
+In detail, each note or statement was reviewed with regard to the main categories and then assigned to it as a subcategory, which describes the content on a higher level of abstraction. This approach allowed to reduce complexity, as it pooled similar statements and opposed them to contrary ones. 
+As a result, a category system\footnote{See appendix p. \pageref{app:category_system} for the category system} was developed. This system was used for further analysis - e.g. whether different categories exclude each other or specific problems occur in combination with others.
+The analysis was conducted using a \ac{CAQDAS}\footnote{In this project, MaxQDA - a proprietary software package will be used}.
+Our approach followed \citet{kuckartz2012} in many aspects. 
+
+As this evaluation bases on qualitative methods, the number of interviewees, who mentioned one aspect was less important than the content of a statement. 
+The aim was, to gather all aspects without judging the importance in the first place. 
+However, all categories will be discussed in the following section and in specific cases, the number of statements within a category will be reflected in this report (e.g. when all or most of the interviewees agree or mention one aspect). 
+
+According to the research questions, the experiences, problems, ideas for improvement and current situation of the beneficiaries were part of the interviews. The category system includes these main categories and subcategories were inductively created and summarize all mentioned aspects on a higher level of abstraction. 
+The results will be discussed along the structure of the research questions in the subsequent sections. As the problem recognition of the interviewees included several steps, the discussion of the problems in this report will be split up into three parts. First all mentioned problems will be reflected, before the main reasons and their order of appearance will be analyzed. These findings will be complemented by the researchers comments and a photo analysis (see \nameref{str_ev_problems_onsite}, p. \pageref{str_ev_problems_onsite}). The other parts of the analysis - experiences, improvement and current situation - will be discussed along the created subcategories mainly.
+This approach helps to develop a multidimensional analysis of the problems occurred during the \ac{NPH} project. 
+
+
+%#The procedure is similar to the approach \citet{glaeser_laudel}
+%The category system\footnote{A detailled overview on the categories can be found in the appendix, p. \pageref{app:category_system}.}, which depicts 
+
+\section{Results and Discussion} \label{str_evaluation_results}
+
+In the community of Dzenje, ten interviews were conducted in the planned period of time. 
+The condition of the \acp{EBH} varied. Five houses showed cracks in the plastering at different spots but were still standing. Unfortunately, five other houses already collapsed. At the time of the interviews, one of the standing houses was still used, while the others were abandoned.
+As the houses were built by construction teams consisting of two trained young Malawians and local support from the community, an explanation for collapsing houses could be training effects or lack of knowledge within the five construction groups.
+However, when looking at table \ref{tab_overview_int}, no clear pattern can be identified. While one of two \acp{EBH} from construction groups 1-3 collapsed, the other one was still standing. Both houses, that were constructed by group 4 have collapsed, whereas both houses built by construction group 5 were still standing.
+Therefore, we can conclude, that there are differences regarding the stability of the \acp{EBH} with regard to the construction group, but theses differences are not straightforward.
+
+\input{inhalt/table_overview_interviews.tex}
+
+This general overview on the status of the houses as of August 2016 will be complemented in the following sections. An overview on the experiences, problems, ideas for improvement and current situation of the beneficiaries will be given. 
+
+
+\subsection{Experiences}
+
+
+The interviewees were asked about there general experience with \acp{EBH} and what comes first into mind when thinking about the technology. Different aspects were mentioned and grouped together in the process of categorization. 
+
+In almost all interviews, the advantages of \acp{EBH} regarding temperature regulation were mentioned\iw{1, 2, 3, 4, 5, 6, 7, 10}. According to the interviewees, the houses were comfortable cold during the summer and hot season, while they were warm during the winter. 
+The houses offered solid wind protection, what is mentioned by some interviewees\iw{2, 7}.
+There seems to be no difference in the way of living inside a \ac{EBH} compared to ordinary brick houses\iw{4, 5, 10} and some of the interviewees considered \ac{EBH}-technology as good. Four interviewees remarked, that they were satisfied with the house when it was built\iw{1, 5, 7, 9}.
+At the same time, \acp{EBH} attracted the interest of other people\iw{7}. 
+Another advantage of \acp{EBH} is, that it takes only a short amount of time to erect them\iw{7}.
+
+However, besides these more positive experiences and ascriptions to \acp{EBH}, a few interviewees remarked, that the effort that was made to construct the house was too high compared to the short period of usage\iw{6, 8}. 
+An interviewee remarked, that the specific \ac{EBH} from this project is not sustainable\iw{10}. This refers to the short period of time, in which the house was used. This short amount of time was not worth the effort to build an \ac{EBH} and use expensive materials. 
+
+At the same time, material buried under the ruins of collapsed houses cannot be used any longer\iw{5, 9}.
+Apart from that, one interviewee said, that round houses do not offer private space\iw{3}. In this case, the house was used by one adult and six children and didn't offer enough space. 
+
+As a conclusion we say, that \acp{EBH} offer good temperature regulation as well as wind protection, as long they can be used as planned. The differences compared to living in generic houses seem to be minimal. The short time to erect the house was mentioned by the interviewees as an advantage as well.  
+On the other hand, the collapse of the houses led to negative experiences regarding the sustainability and commensurability of the used effort and material. In further projects, the limited private space within round houses can be considered as well as the actual space requirement.
+As long as \acp{EBH} stand and can be used, the positive experiences prevail. Some experienced of the interviewees pointed onto problems within the \ac{NPH}-project, that will be discussed in detail in the following section. 
+ 
+
+\subsection{Problems}
+
+
+The collapse of five out of ten \acp{EBH} - as mentioned in chapter \ref{str_evaluation_results} - can be seen as the major problem. However, this evaluation tries to comprehend all problems the interviewees faced while using the \acp{EBH}. 
+In a second step, the chronology of problems will be analyzed (see \nameref{str_ev_problems_causal}, p. \pageref{str_ev_problems_causal}). 
+% Malte: Will-Zeitform hört sich komisch an.
+
+\subsubsection{General Problem Analysis}
+
+The created categories cover a broad range of problems. These categories will be discussed in the following section, without linking causes and effects together in the first place. Instead an overview on all problems\footnote{an alphabetical overview on the problems is shown in the appendix, \nameref{app:category_system}, p. \pageref{app:category_system}.} the interviewees perceived will be given.
+
+\begin{figure}[htbp]
+\begin{tabular}{@{}c@{\hspace{.5cm}}c@{}}
+       \includegraphics[page=1,width=.9\textwidth]{grafik/problems.pdf}
+       \\
+   \end{tabular}
+  \centering
+  \label{graphic_problems}
+  \caption{Wordcloud showing all problem categories (not to scale)}
+\end{figure}
+%#Idee Wortwolke mit Kurzbegriffen erstellen und einfügen
+
+\label{problems_bag}
+
+A few \textit{bag}-related issues were mentioned\iw{3, 7, 8}. Some bags ripped, what caused exposure of their content to weather conditions. One interviewee mentioned, that the bags were exposed to the sun and therefore ultraviolett light\iw{7}. This leads to further damages, as the bags loosed stability and were more likely to break. 
+% Malte: According to him...?? 
+This can lead to a collapse of the wall (see section \nameref{str_bag_material}, p. \pageref{str_bag_material}). In another case, the plastering didn't stick to the plastic bag\iw{8}. Even though chicken wire should overcome the slickness of the bags and enable a connection between the house structure and the plastering, the problem occurred at least in this case. 
+
+\label{problems_chicken_wire}
+However, one interviewee remarked, that the \textit{chicken wire} prevented the plastering from sticking to the house structure\iw{3}. In other cases, deformations of the chicken wire occurred, that resulted in the break down of the plastering according to the interviewee. In one case the chicken wire's deformation was lead back to stretch effects due to temperature effects\iw{4}, while in another case the cause was not specified by the interviewee\iw{7}.
+As a consequence, the chicken wire problem led to plastering difficulties: 
+
+% Malte: Eigentlich hast Du klar gemacht, dass dies alles Einschätzungen der Interviewees ist, aber vielleicht könnte man das eine oder andere Mal noch drauf hinweisen. Manche Sätze klingen wie Kommentare von Dir! Besser evtl.:"...that, according to the interviewee, resulted in the break down..."
+
+\label{problems_plastering}
+In all interviews, problems with the \textit{plastering} were discussed. In most cases, cracks in the plastering occurred before the rainy season started\iw{2, 4, 6, 7, 8, 10}. In one case, the cracks appeared soon after the house was constructed\iw{8}. After rainfall, seeds started sprouting out of the cracks in the plastering and plants grew on the wall\iw{1, 3, 10}. 
+
+\label{problems_plastering_plants}
+After developing cracks, in some cases parts of the plastering came down\iw{1, 5, 6}. At least in one case the interviewee mentioned, that the plastering is considered to be the main problem (see section \nameref{str_ev_problems_causal}, p. \ref{str_ev_problems_causal}). 
+%	Plastering 
+%	Plants growing on Wall      
+\label{problems_cement}
+Strongly related to the plastering problems is the issue of \textit{cement}, which was a topic in five interviews\iw{1, 2, 5, 8, 10}. As the plastering consists of cement and came down from most of the houses, some interviewees assumed that it was insufficient\iw{1, 5, 10}. The insufficiency was a consequence of a lack of cement, as one person remarked\iw{10}. 
+%	Cement (lack of)/came down 
+
+\label{problems_water}
+
+Another issue was reported from different beneficiaries and pointed out the problem of \textit{water} and moisture inside the houses\iw{1, 2, 3, 4, 7, 8, 9}. Affected parts were the bags and therefore the walls, which were wet before some of the \acp{EBH} collapsed. The ground of some houses got wet as well, as it was not paved or cemented. At least in one case, water came in through the lunettes made of plastic bottles in the upper part of the building\iw{7}. In another \ac{EBH} the water came in trough cracks, that appeared in the upper part of the building\iw{8}. 
+
+Water inside the building caused problems and as it filled up during a short period of time, the house was not considered safe any longer in one case\iw{2}. When the houses started leaking, several inhabitants moved out of the buildings.
+%	Water/Moisture inside      
+
+\label{problems_window}
+In one case it is reported, that the \textit{window} of the house broke due to heavy wind\iw{3}. As there was no possibility to replace the broken window, this issue affected the inhabitants and facilitated the diffusion of water into the house. 
+%	Window broke (heavy wind)
+
+\label{problems_deformations}
+A few interviewees mentioned the problem of deformation\iw{1, 3, 5, 6, 8}. In one case the deformations occurred mainly in the entrance area\iw{6}, while in another building, cracks developed in the upper part\iw{8}. The reasons differentiated according to the interviewees. Water was considered the main reason for the deformation in one case\iw{3}, but in another case the deformation occurred earlier while the \ac{EBH} was plastered\iw{5}.
+
+%	Deformations      
+\label{problems_door}
+Another change of the house structure was noted by several interviewees. They remarked, that they realized first problems when it became harder to open or close the entrance \textit{door}\iw{4, 5, 6, 10}. It was visible, that this process was the result of a deformation of the house at least in some cases: The bags were exposed during the rainy season and moved, or the door was squeezed to the exterior of the building. As a consequence, the door frame deformed and and it became harder to move the door.  
+%	Door (Difficulties)  
+\label{problems_house_sinking}\label{problem_house_construction}
+
+In two cases, similar problems of \textit{shape deformation} occurred right after construction. In one case the house was slightly sinking\iw{5}. In another case\iw{9}, the \ac{EBH} bent when construction was finished.
+
+%	House was slightly sinking 
+%	Constructions  
+
+\label{problems_insects}
+A different problem, that was mentioned in one interview\iw{4}, was the appearance of \textit{insects}. The interviewee asked the question, whether this could be a bag-related problem.
+%	Insects in the House (bag-related problem?) 
+
+\label{problems_maintenance}
+As problems with \acp{EBH} occurred, there was a need for \textit{maintenance} and repair of the damages. However, a few interviewees remarked, that it is difficult to repair an \ac{EBH} in a dome shape, as there is no local knowledge on the technology\iw{2, 3, 5}. According to one interviewee, it was not possible to repair the roof, as there was no knowledge or experience\iw{3}. One interviewee generalized this problem, summarizing that \acp{EBH} in general cannot be fixed by local people - while problems with brick houses can be identified and fixed locally.  
+%	Repairing EBH - no local knowledge     
+
+\label{problems_cultural}
+A similar problem was mentioned by another interviewee: \acp{EBH} are different from the houses, that exist in the environment\iw{9}. There are \textit{"cultural"}\footnote{This term was used when translating the answer of the interviewee.} \textit{differences}. However, this was not the category which focusses on the social embeddedness of the interviewees and their \acp{EBH}.  
+%	difference of the house - cultural reasons      
+\label{problems_public_disgrace}
+When the house collapsed, one family perceived the fail as a \textit{public disgrace} and expressed this feeling during the interview\iw{8}.  
+%	public disgrace 
+\label{problems_rumour}
+\textit{Rumor}, that houses from the \ac{NPH} project collapsed, accelerated the decision of several interviewees to move out of the \ac{EBH}\iw{1, 4, 6}. Trust in the technology seemed to be undermined after the first houses already collapsed within one year. 
+%	Rumor: House can collapse      
+
+\label{problems_collapse}
+The process in which one of the houses collapsed was described in one interview in detail\iw{7}. During one night, another person from outside realized serious changes on the house and the inhabitants moved out. After that, the house came down within less than 24 hours, but little by little. 
+%	Collapse      
+\label{problems_belongings}
+During the collaps, some interviewees lost their property as it was buried under the ruins of the \ac{EBH}\iw{5, 9}.	
+%	Property is burried under the ruins      
+
+%		little by little    
+\label{problems_dangerous}
+The collapse of the houses led to the conclusion of at least some of the interviewees, that \ac{EBH} are dangerous\iw{5, 7, 8}.
+As constructed within the \ac{NPH} project, the houses didn't offer protection\iw{7} or were a threat to the safety of people\iw{8}. 
+%	Dangerous      
+\\
+\\
+To wrap up the mentioned problems, we can say, that some aspects concerned the used material (bags, chicken wire, cement), while others focused on destruction through weather conditions (water came inside, wind broke a window). One important aspect was the deformation of the house, that became visible in different facets (direct deformation of the upper part, changes in the entrance area). \acp{EBH} are different than the - in Dzenje predominant - rectangular houses made of burnt bricks. This aspect caused problems when it came to maintenance, but also when considering cultural tradition.
+The collapse of five of the houses caused rumor in the area, made others to move out of their buildings and decreased trust into earth bag technology (as the houses are considered dangerous by some interviewees). 
+
+In the next section, the - according to the  interviewees - main problems will be discussed, before the mentioned problems will be complemented and contrasted by impressions during the on-site evaluation.
+
+
+\subsubsection{Causal Analysis} \label{str_ev_problems_causal}
+
+After reviewing all problems, that were mentioned during the interviews, the causal relationship between them is the next step of analysis. Therefore, we asked the interviewees to name the main problems and the order in which they appeared. A generalized overview on the sequence of problems is given in the figure below (a full overview on the problem sequence per interview can be found in the appendix, table  "\nameref{tab_overview_main_problems}", p. \pageref{tab_overview_main_problems}).
+
+\begin{figure}[htbp]
+\begin{tabular}{@{}c@{\hspace{.5cm}}c@{}}
+       \includegraphics[page=1,width=.9\textwidth]{grafik/problem_order.pdf}
+       \\
+   \end{tabular}
+  \centering
+  \label{graphic_problem_order}
+  \caption{schematic sequence of problems according to the interviewees}
+\end{figure}
+
+The figure shows all problems that were mentioned as main problems by the interviewees. The size of the arrows, text and shapes represents the number of connections or codings (the bigger an item is, the more often it was mentioned). The schematic figure shows all interconnections between the problems while generalizing the sequence (e.g., if in interview one, problem A occurred first and is followed by problem B, while in interview two the problem sequence was C-A-B, the focus in the schematic figure lies on the common A-B sequence).
+Therefore the figure represents all sequences of problems without specifying detailed, when the very problem occurred during the period of house using. However, reading from the left to the right, a generalized sequence of the problems can be identified (arrows to the right are bigger in general than the other way around). As stated in chapter \nameref{str_evaluation_approach} (p. \ref{str_evaluation_approach}), we posed open questions without predetermined answer options. Therefore, we cannot say for sure whether an aspect, that was not mentioned in one specific interview is not an issue for the interviewee. But the mentioned problems shed a light on the aspects, that were expressed and important to the interviewees.
+
+In most of the interviews, problems with the plastering on the one hand and with water on the other hand were mentioned. 
+However, in some cases other problems preceded or followed. The findings will be described briefly in the following paragraphs:
+
+In one case, the house was slightly sinking and in other cases difficulties with the entrance door appeared, before plastering problems occurred. Another interviewee remarked, that water came into the house before the plastering problem became apparent. 
+
+The problem with the plastering was followed by the exposure of the bags. Some of them got ripped, and sun caused further damage. The slickness of the bags promoted further plastering problems. The exposure of the bags and the chicken wire led to the latter’s expansion (and probably intensified plastering problems), and the permeation of water.
+After noticing plastering problems, a deformation of the \ac{EBH} was mentioned in two cases, which facilitated the permeation of water and moisture into the building according to one interviewee.  
+In another case, the plastering problem was mentioned in the context of a following cement problem, which came down and was insufficient according to the interviewee. A broken window was in one case the first problem, before water came inside the building. However in most cases the plastering problem was directly followed by moisture and water inside the \ac{EBH}. 
+When looking at the problem of moisture and water inside the building, it becomes obvious that - apart from the already mentioned plastering problem in one case - rumor and the deformation of the house were perceived as the following problems. 
+
+The schematic sequence of problem appearance shows, that plastering and water problems are central aspects when talking about the difficulties within the project. Before, in between and after, other problems were mentioned and help to get a clearer picture of the order of the problems within the \ac{NPH} project. The findings will be discussed in the following section in detail and complemented by the researchers comments and impressions during the on-site fieldwork in Dzenje.
+
+
+\subsubsection{Site Evaluation and Photo Analysis} \label{str_ev_problems_onsite}
+
+The interview results show, that problems related to the plastering and water were central challenges within the \ac{NPH}-project. 
+A closer look at the mentioned aspects (as they were discussed in the previous sections) reveals, that some of them can be summarized under a higher concept. 
+The difficulties with the door, the slightly sinking house and the deformation all suggest that changes of the house structure occurred. From this point of view, the mentioned aspects appear to be symptoms of an underlying problem. The symptoms seem to be connected to the plastering issue, what can be explained when looking at the general construction plan of the \ac{EBH}. As the main walls move, deform or change in some way, the surrounding plastering has to withstand strong forces. 
+But when the force becomes too strong, the plastering cracks - what corresponds to the interviewees' observation.
+In at least one case we have evidence, that the house was deformed right after construction\iw{9} and photos from other \acp{EBH} suggest, that a deformation of the house structure occurred. Subsequently, the plastering broke and didn't protect the building and main wall from water any longer. 
+
+% #Fotos einfügen
+
+However, the technical reasons for the change of the house structure and the mentioned symptoms have to be discussed thoroughly. The following paragraphs will introduce different interpretations and explanations for the observed symptoms. 
+
+
+ 
+ 
+
+
+
+%Notes_JB House sinking, difficulties door -> deformation. The already dried out plastering cracked. While this problem was ascribed to a poor quality or the lack of cement, in another case it led to the exposure of the bags and resulted in damage of intermediate layers (including the chicken wire). As a result of the damaged house structure, water came inside the \acp{EBH}. 
+%Notes_JB What need to be discussed is the role of deformation. 
+
+
+% Im vorigen Kapitel: Symptome - hier Ursachen diskutieren und Verknüpfungen herstellen.
+% Ursachen für Plastering Problems
+% 	- Deformation als Ursache für Plastering (Was hat zur Deformation geführt?)
+% 		- Füllmaterial zu Tonhaltig - beim Aushärten zu stark verformt, wenn mit Zement geplastert (wie nass waren die Säcke beim Plastern?)
+% 		- Tamping (ggf. Beispielfoto) -> Zusammensacken
+		% ungenaue Bauform (ggf. Beispielfotos)
+% 			Shape in general
+			% Tür fast aufrecht und Shape daran angepasst -> problematisch (Foto aus letzten 3 Interviews mit Deformations an der Tür)
+% 	- Chicken Wire nicht richtig attached
+		% Chicken Wire Mythos: ähnlicher Wärmeausdehnungskoeffizient wie Zement, sehr unwahrscheinlich dass dies zum Cracken des Plasterings führte
+% Deckt sich mit Erfahrung aus anderen Projekten
+% 	Top 6 Fails
+		% 1. wrong type of soil. Read my book and free articles that explain how you need clayey/sandy soil with enough clay to hold the soil together. Sandy soil will slump and collapse if you don't have enough clay or stabilizer such as lime or cement. 
+		% 2. not enough tamping -- tamp the bags solid. 
+		% 3. rain damage, 
+		% 4. sun damage. Keep the walls covered to protect from sun and rain damage. 
+		% 5. bad workmanship -- walls must be straight, plumb and level just as any other type of building, 
+		% 6.  wrong dome shape -- you may have made the corbel too big. See my free articles that explain how to build earthbag domes.
+% Zwischenfazit
+% 	Symptome und Ursachen widersprechen sich hier im großen und ganzen nicht
+% 	technische Details/Optionen/Alternativen werden im Kapitel XY detaillierter diskutiert
+
+
+
+
+
+ 
+
+
+\subsection{Ideas for \ac{EBH} Improvement}
+
+Part of the interviews was the question on suggested improvements of the used \ac{EBH}-technology. The process of category building 
+
+\label{improvement_roof}
+Most of the interviewees suggest, that the houses are constructed with a proper \textit{roof}  \iw{2, 3, 4, 5, 6, 7, 8, 9, 10}. A separate roof minimizes the exposure of the house or walls\iw{6, 7} and an iron-sheet roof is a better solution according to several interviewees\iw{2, 8, 9}. When it comes to maintenance, a solution that can be fixed by local people is preferred\iw{3}. However, some suggestions do not go into detail how the "proper roof"\iw{10} should be like\iw{4, 10}. 
+
+\label{improvement_rectangular}
+Apart from the roof, another shape of the building is suggested by seven interviewees\iw{4, 5, 6, 7, 8, 10}. Most interviewees prefer \textit{rectangular} houses. In some cases it is specified that rectangular houses would offer more protection and that the dome shape is dangerous\iw{7, 8} or another option is preferred\iw{1}.
+Additionally, a rectangular \ac{EBH} would be more similar to other houses within the community\iw{8}.
+The roundhouse shape would be still a solution for one of the interviewees who prefer rectangular houses\iw{4}\label{improvement_roundhouse}, while the roundhouse shape is not a solution for another interviewee due to bad space utilization possibilities\iw{3}.\label{improvement_no_roundhouse}
+\label{improvement_upright_walls}
+Another statement points in the direction, that local people will not adapt to te dome shape and that upright houses are a suggested improvement\iw{3}. Other statements suggest to focus on \textit{upright walls}, as they can secure stability for the building\iw{1, 2, 3, 9}. 
+
+\label{improvement_burnt_bricks}
+The stability of the house and the danger that arises from the \ac{EBH} in the \ac{NPH}-project, leads to several suggestions, that \textit{brick houses} should be built in future projects\iw{3, 5, 6, 7}. 
+\label{improvement_no_ebh}
+However, these suggestions come mainly from interviewees who are not willing to use \acp{EBH} in the future (probably because of their experiences in the current project and the collapse of their \ac{EBH})\iw{4, 5, 7}.
+\label{improvement_ebh_ok}
+On the other side, there are several interviewees, who are still open to \ac{EBH}-technology\iw{3, 9, 10}.
+As the use of burnt bricks is not a part of this \ac{EBH} prototype project, the idea will not be considered in depth. 
+
+\label{improvement_cement}
+Other suggestions for improvement of \acp{EBH} focus on the used cement\iw{1, 2, 4, 6, 10}. It is mentioned, that the cement should be changed\iw{1}, is hard to find from local sources\iw{2} and that the used one was not sufficient for proper house plastering\iw{4, 6, 10}. A few interviewees remark, that a floor made of concrete would be an improvement\iw{2, 4, 8}\label{improvement_cement_floor}. One person remarked, that wall plastering inside would be desirable\iw{4}\label{improvement_plastering_inside}. However, no further explanation why this improvement is needed was noted.
+Another idea, that concerns the plastering of the houses as well, suggests the use of other material than chicken wire\iw{4}\label{improvement_no_chicken_wire}. As exposed chicken wire tends to expand in the sun, it can cause further damages to the plastering and should therefore be replaced in future projects.
+
+
+
+\subsection{Current Situation}
+
+
+
+
+
+
+
+\chapter{Earth Bag Housing Techniques and } \label{str:tse}
+
+\section{Technical and Environmental Aspects} 
+\label{str:technical}
+\todo{JB: ggf. diese Section noch umbenennen, da keine weiteren Sections auf gleicher Ebene}
+
+% Malte: In this section we analyse the Earthbag houses regarding certain categories (construction style, filling material ect.). Of course these categories intersect. The respective peculiarities (e.g. dome vs. upright walls) we attempt to asses, using our predefined "Normative Indicators" (see mindmap).
+
+% Malte: evtl. noch sagen, dass bestimmte, nicht strukturelle Aspakte (wie Interior Plaster und Floor) nicht behandelt werden!
+
+\subsection{Design Principles}
+
+Earthbag Building utilizes the ancient technique of rammed earth in conjunction with woven bags (or tubes) as a flexible form. The bags or tubes are filled on the wall using a suitable pre-moistened earth. They are laid in a mason style running bond and after a row has been laid, it is thoroughly compacted with hand tampers. It is recommended to lay two strands of Four-point barbed wire in between every row, which act as a “velcro mortar” cinching the bags in place. This provides exceptional tensile strength while allowing the rows to be stepped in to create corbelled domes and other unusual shapes \citep[p. 4]{hunter2004}.
+
+Every construction incorporates specific design principles to get the optimal performance from the material being used \citep[p. 69]{hunter2004}. For the building of earthbag houses, two different principles can be identified: Traditional houses with upright walls and dome structures where earth-filled bags are used for both the walls and the roof \citep[p. ?]{kennedy2005}. The traditional houses can furthermore be subdivided into rectangular shapes and roundhouses \citep{geiger2011}. This section emphasizes the structural differences between the construction styles. %Materials and structures that apply for all (e.g. plastering and foundation) are separately described and thus not further discussed in this section.
+
+\subsubsection{Rectilinear Houses}
+\label{str:rectilinear_houses}
+
+Both earthbag technologies base on a wall system with structures composed primarily of ordinary soil found at the construction site. The soil is stuffed inside polypropylene or burlap bags which are then staggered like masonry and solidly tamped \citep[p. 78]{geiger2015}. However, upright wall houses require a particular (not earthbag-made) roof construction and reinforcement of the walls. 
+
+For the construction of rectilinear walls, \citet[p. 85,86]{geiger2015} worked out a number of  thumb-rules that he recommends to follow. These rules refer to the height-to-thickness ratio of a wall, the dimension and location of openings (e.g. windows and doors), earthbag overlapping and the length of unsupported walls. 
+
+Furthermore, \citet[p. 87,88]{geiger2015} recommends corner reinforcements of upright walls. He distinguishes the following five types of reinforcement:
+
+\begin{itemize}
+
+\item{\textbf{Corner Buttresses} can strengthen corners or stiffen straight walls (unsupported walls should be less or equal 10 times its thickness). An advantage is that buttresses allow the extension of the house in the future. The can be straight, sloping of stepped. Taking into account the fact that sophisticated construction material like steel bars is difficult to obtain in Malawi, corner buttresses appear to be the most suitable reinforcement option in Malawi.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=6cm]{grafik/malte/corner_reinforcement.png}
+\caption{Corner reinforcement using buttresses \citep[p. 87]{geiger2015}}
+\label{img:corner_reinforcement_buttress}
+\end{figure}
+}
+
+\item{\textbf{Corner Rebars} are said to be the simplest way to strengthen corners of earthbag walls. In this case a piece of rebar (steel bar) is simply hammered through the alternated corner bags. It must be kept in mind that steel bars must be acquired by purchase and are under some circumstances difficult to optain.} %Ausrechnen, ob dies günstiger sein könnte 
+\item{A strip of sturdy \textbf{Mesh} can be placed on the outside of the corners from top to bottom. The exterior mesh is then fastened to the inside corner at every other course. Metal rod, bamboo rod or an additional mesh should be placed on the interior corner.}
+\item{\textbf{Corrugated Metal Roofing} can be but into strips 20-30 cm wide and at least 75 cm long. They overlap at the corners and nailed into the bags below. Additionally, strong cord or mesh is used with wire or strapping to secure layers of bags tightly around the metal.}
+\item{A \textbf{Pier} is a thickened wall section. It projects out form the wall the width of a single bag.}
+\end{itemize}
+
+
+\subsubsection*{Additional Reinforcement}
+
+For upright walls additional reinforcement in the form of "bond beams" is recommended. Furthermore they are inevitable to comply with certain building codes \citep[p. 110]{hunter2004}. Bond beams tie the walls together into one monolithic frame and provide moreover a connection for the roof structure. According to \citet{geiger2011} it is the easiest to build a bond beam immediately above window and door openings so lintels may be dispensed. Within the common construction styles, three different types of bond beams can be identified:
+
+\begin{itemize}
+\item{\textbf{Concrete Bond Beams} are the widely recommended option. It is like a foundation on top of the wall \citep[p. 110]{hunter2004}. The bond beam should be at least 15 cm deep and the width should be 2/3 of the bag width. In order to withstand tensile strength, the beam should be furthermore reinforced with an embedded metal rebar \citep[p. 89]{geiger2015} and anchored to the wall by vertical rebars driven into the underlying bags. The wooden frame for the bond beam can be usually left in place \citep[p. 110,111]{hunter2004}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=8cm]{grafik/malte/bond_beam.png}
+\caption{Concrete bond beam with roof attachment and framework left in place \citep[p. 110,111]{hunter2004}}
+\label{img:bond_beam}
+\end{figure}
+
+}
+\item{\textbf{Timber Roof Band} can be used as an alternative to concrete band (in case there is ample supply of timber and/or poor road access). It can be assumed that the timber band is significantly weaker and presents a shorter lifespan than the concrete beam. Furthermore it is less resistant against termites \cite{geiger2011}. An alternative to the heavy wood bond beam (prescribed by the building codes) is a light wood ladder roof plate anchored to the top of the wall with poly strapping \citep[p. 112]{hunter2004}}.
+\item{Another idea, presented by \citet{hart2010}, is deploying hollow \textbf{Steel Tubes}}.
+\end{itemize}
+
+According to \citet[p. 112]{hunter2004}, bond beams are especially recommended for earthquake areas, larger structures and heavy compression style roofs. However, in most cases concrete and heavy wood bond beams are unnecessary. % (...und kosten viel Geld und REsources) 
+In this case it must be ensured that the weight of the roof is directed straight down onto the walls (they don't resist horizontal forces without reinforcement). 
+
+The above mentioned corner reinforcements where mainly worked out by \citet{geiger2015} and \citet{hunter2004}, based personal experience. However, scientific research into the structural behaviour of earthbag buildings is limited. The described designs rely on experience or "trial an error" \citep[p. 2]{vadgama2010}.
+
+% Perhaps here explain openings (Windows and Doors) and how they are connected to the rest.
+
+\subsubsection{Upright Roundhouses}
+
+Roundhouses can be considered as a hybrid between rectilinear houses and dome structures. According to \citet{geiger2011} they are the simplest, fastest, easiest earthbag structure to build. 
+
+Most of the characteristics described in section \ref{str:rectilinear_houses} also refer to the roundhouses. However, the key advantage over rectilinear houses is that roundhouses don't require any corner reinforcement \citep{geiger2011}.
+
+\subsubsection{Earthbag Domes}
+\label{str:earthbag_domes}
+
+The construction of rectilinear houses comes along with a number of drawbacks. First of all the (inevitable) construction of a of conventional roof systems requires further material input. In earthbag domes the roof consists of the monolithic wall structure itself. Therefore, This construction style offers a unique opportunity for providing substantial shelter using primarily only earth \citep[p. 4]{hunter2004} and simplifies a cradle to cradle material flow \citep[p. 139]{barnes2009}. 
+
+Building domes is an ancient technology and can be considered the simplest strategy to achieve structural integrity with the least amount of materials. It is self-supporting and does not require any type of structural reinforcement \citep[p. 134,135]{hunter2004}.
+
+It can be identified different (traditional) techniques of dome building. Some of them (e.g. the so called \textit{Nubian} style) include installing bricks at an angle. This allows the construction of strong, self supporting "Nubian vault" shapes. However, this building process is impracticable for \acp{EBH}, since the bags don't present any adhesion that allows unsupported, inclined construction. Furthermore bag-tamping is impossible. The only suitable technique for earthbag domes is \textit{Corbelling}. This technique was established thousands of years ago and it involves laying the bricks horizontally rather than inclined. Each row of bags maintains a flat surface to stand on while filling and tamping. Each course can only be stepped in slightly (cantilevering over the underlying bricks) which creates a steep, cone-like shape (\citeauthor{kennedy2001}, \citeyear{kennedy2001}, p. 5; \citeauthor{hunter2004}, \citeyear{hunter2004}, pp. 134-136).
+
+Taking a closer look at the force distribution in domed structures, it is interesting to note that in nubian vaults only normal forces and bending moments occur, but no shear forces. However, in corbelled earthbag domes each bag must also withstand shear stresses. Besides the tensile strength of the bag material itself (allowing the bags to withstand vertical load) any form of additional friction and tensile strength of the ring structure must be provided between the layers of bags. Usually for earthbag buildings, strands of barbed wire are installed per row \citep[p. 17]{vadgama2010}. Furthermore, the foundation must withstand tensile strength.
+
+Good instructions of how to design the shape and step-by-step construct an earthbag dome can be found in \citet[pp. 136-141,145-162]{hunter2004}. Due to our experience in the community of Dzenje (Malawi), the exact compliance with the planned shape of the building is of particular importance. 
+% Malte: Die genaue Bauweise von Domes ist extrem wichtig, da sonst Kraftspitzen nach Außen auftreten. Wenn man sich die Bilder von Dzenje anschaut, dann sieht man, dass dies dort nicht gegeben ist. 600 und 601 sind bezeichnende Bilder. Gerade bis über die Tür sieht der Dome immer ziemlich upright aus und geht dann nach innen. das drückt den Teil über de Tür außeinander!
+
+\subsection{Roof}
+
+There are innumerable styles and methods of building a roof. Many of them can be adapted to earthbag walls \citep[p. 109]{hunter2004}. Roofs are particularly relevant for earthbag buildings with upright walls. In earthbag domes the roof consists of the wall structure itself and is therefore described separately in section \ref{str:domes_roof}.
+
+\subsubsection{Roof Structures}
+\label{str:roof_structures}
+
+The most obvious consideration is designing a roof appropriately for the climate. E.g. longer eaves protect the earthbag wall from water wetter climates. Furthermore moist climates serve as natural watering systems for a living thatch roofs, while in a dry climate the roof can be used to harvest precious rainwater. A disadvantage of roof systems is that its cost can easily equal or exceed the cost of all of the exterior walls combined \citep[pp. 110-112]{hunter2004}.
+
+Further relevant are the techniques with which to anchor the roof the walls. In case a bond beam (see section \ref{str:rectilinear_houses}) is used, the bond beam itself can be used to attach the roof. In this case the wall structure even resists horizontal forces. Alternative roof system without bond beams are described in \citet[p. 113]{hunter2004}.
+
+% Malte: Hier noch special considerations für round houses beachten! \citet[p. 117]{hunter2004}.
+
+\subsubsection{Roof Coverings}
+
+The roof structures, described in section \ref{str:roof_structures}, can be covered by innumerable different materials. \citet[p. 121,122]{hunter2004} encourages to experiment with locally available materials and import as little as possible. Furthermore, he recommends to look at the way native people build in the kind of climate they live in and adapt. Among others, he proposes to use (living) thatch, sod, straw bales, terracotta tiles, cedar shingles or shakes, license plates, smashed cans, metal roofing or whatever the builder can imagine or "scrounge". 
+
+\begin{itemize}
+
+\item{\textbf{Living roofs} have a long history that extends throughout almost every continent. Sod provide pleasant temperature and moisture regulating properties. The main drawback is that sod is very heavy and needs a suitable (and likely expensive) roof structure to support it. % Ist das so schon dicht? 
+Another version of a living roof utilizes (over time composting) straw bales as a substitute for sod. The straw bales then serve as breeding ground for indigenous grasses and flowers. A simple method for waterproofing a living roof is to cover the surface with a layer of pond liner or a suitable substitute \citep[p. 121,122]{hunter2004}.}
+
+\item{\textbf{Metal roofs} Are expensive, loud and don't insulate well... .}
+
+% Malte: Here is space for more options
+\end{itemize}
+
+ % Malte: Zudem sollte das Dach genauso günstig und sustainable sein.
+
+
+\subsubsection{Roof Systems for Domes}
+\label{str:domes_roof}
+
+In earthbag domes the roof consists of the monolithic wall structure itself. Therefore, in most roofing variants, the exterior plaster represents the substantial part of the roof. 
+
+\begin{itemize}
+\item{\textbf{Earthen} plaster roofs are especially suitable for dry climates. However, clay has natural water resistance characteristics. For earthen plasters a sticky, clay-heavy sand (or silt) mix is mixed with long straw, serving as structural reinforcement. It is recommended to apply this mix in two layers, a clayey 10-15 cm base layer and a thinner second layer. A disadvantage compared to other plastering options is that earthen plasters require periodic replastering. However, this can be done easily with locally available materials. The steeper a dome is constructed, the quicker it sheds water and the less plaster maintenance is required \citep[p. 164]{hunter2004}.}
+
+\item{In areas with low rainfall, instead of an earthen second layer a \textbf{lime-based} second layer can be applied. Multiple layers of lime plaster followed by several coats of lime wash offers more protection than simply one or two thick coats of lime plaster. Furthermore, it can be experimented with water proofing additives for lime plaster. Nopal or prickly pear cactus juice can be added to the increase water resistance without limiting lime's ability to transpire moisture. In addition, a mixture of alum and water and soap and water can be alternately mopped onto the lime plastered surface \citep[p. 164,165]{hunter2004}. Furthermore, \citet{hart0000} proposes the application of a coat or two of latex or acrylic waterproof paint, designed for roofs.}
+
+\item{In areas with more rainfalls \textbf{cement-based} plastering seems to be most appropriate. 
+% Malte: Später wird jedoch gesagt, dass Cement durchlässing ist für wasser!
+It needs to be considered that for cement-based plasters the bags need to be filled with a sandy soil low in clay. This mixture is less prone to be affected by (internal) moisture or expansion and contraction, potentially jeopardizing the inelastic cement plaster. Additionally lime can be added to the cement-based plaster to increase water resistance \citep[p. 166]{hunter2004}. \citet{hart0000} proposes to apply latex roof paint, designed to seal concrete roofs.}
+
+\item{Besides the mentioned methods there are many more available. These include e.g. the application of tiles and flagstone, living thatch, shingle, straw, wood  \citep[pp. 165-169]{hunter2004} and papercrete \citep{hart0000}.}
+% Malte: These methods don't need to be explained further, since the seem to be too expensive.
+\end{itemize}
+
+In order to guarantee a completely water insulated dome, \citet{hart0000} proposes to drape a layer or two of plastic sheeting over the dome before applying the plaster (using some wire mesh over the plastic to help reinforce the plaster and hold it in place). 
+
+Generally spoken, earthbag domes are most suitable for arid areas. Even though the described roofing methods provide water resistance to some extent, this can not be guaranteed in areas with rainy seasons and heavy rainfalls. 
+Only the application of plastic sheets ensures water resistance. However, it has to be taken into account that the water insulation affects or inhibits the wall's breathability. Interior moisture can no longer be transported to the outside \citep{hart0000}. % Malte: Man muss sich überlegen, ob man das möchte. 
+
+\subsection{Filling Material (Soil composition)}
+\label{str:filling_material}
+% Malte: Soil constitution
+
+The soil is the most essential element of earthbag construction. The properties of earthbag constructions highly depend on the composition of the soil and its moisture content \citep[p. 16]{hunter2004}. According to \citet[p. 2]{kennedy2001}, almost whatever subsoil is available can be used as filling material. Furthermore, it is stated that the soil can be used either wet or dry, but moistened material creates a more stable structure. However, a soil composition of 25-30 \% clay and 70-75 \% sand is recommended by \citet[p. 81]{geiger2015}. According to \citet[p. 14]{hunter2004} a clay content of anywhere from 5 to 30 \% is suitable. Soils with clay content over 30 percent are likely to be unstable. 
+
+In general it can be stated that the filling material and the bag quality interdepend. The (more or less) ductile filling material transforms the compressive force on the earthbag into tensile force of the bag material. Thus, the compressive capacity of the earthbag is limited by the tensile capacity of the bag material \citep[p. 4,5]{vadgama2010}. The more ductile the filling material, the stronger the bags need to be (\citeauthor{kennedy2001}, \citeyear{kennedy2001}, p. 3; \citeauthor{vadgama2010}, \citeyear{vadgama2010}, p. 16). Stabilising the soil (e.g. with cement) provides an initial cohesion which is results in a higher vertical pressure to cause failure of the earthbag. A similar affect can be seen with the introduction of clay to act as a binder and provide some cohesion to the soil \citep[p. 16]{vadgama2010}.
+
+\textbf{Clay} is a firm, fine-grained earth that is plastic when wet and mainly composed of hydrous aluminium silicate minerals. It is the "glue" that holds the other particles together. There are various types of clay and they are not equally suitable for earthbag building. The best clays for wall building are relatively stable. They swell minimally when wet and shrink minimally when dry. It must be kept in mind that the richer a soil is in clay, the more it will shrink and expand in severe weather conditions (and while drying after construction) \citep[pp. 13-16]{hunter2004}. % Wurde diese bei der Konstruktion in Dzenje berücksichtigt? Was war der Clay content?
+
+\textbf{Silt} presents a particle size larger than that of clay and yet smaller than that of sand. Its behaviour differs substantially in behaviour from clay as it is structurally inert. Therefore, soils with a high silt content should either be avoided for construction or amanded with clay and sand (furthermore, in some cases adding cement as a stabilizer helps increasing the compression strength of silt-rich soil) \citep[p. 14,15]{hunter2004}.
+
+\textbf{Sand} (and gravel) provide the bulk that gives an earthen wall compression strength and stability. Also sands and gravels have different suitability for building purposes. Coarse, jagged edged particles provide more stable surfaces for clay binder to adhere to \citep[p. 15]{hunter2004}. % Furthermore, Sand rich soil doesn't crack
+
+According to \citet[p. 16]{hunter2004} the following observation can be made: Earthbag buildings with sandy soils are the most stable when they get wet. Cement plastering on a structure of sand-rich earthbags is less likely to crack over the time than bags with clayey soil (see also \ref{str:domes_roof}). In general, the filling material must be free from topsoil containing organic matter such as leaves, twigs and grasses. Organic matter hinders boding of the earth and leads to cavities later (due to decomposition of the debris).
+
+Regarding environmental sustainability and cost effectiveness it can be emphasized that it is particularly advantageous to obtain the soil directly from the construction site. According to \citet[p. 81]{geiger2015} this is recommended especially since a precise ratio of soil components is not necessary. In case sand needs to be added to the soil heavy soil, it must be considered, that the costs of transportation by far exceed the costs of the material itself \citep[p. 16]{hunter2004}
+
+The moisture content of the filled soil plays a significant role in the earthbag construction. Although \citet[p. 81]{geiger2015} defines 10 \% as the ideal moisture content, it can be noted that the ideal moisture content depends on the particular soil composition and can increased up to 20 \% \citep[p. 17]{hunter2004}. Traditionally, in rammed earth construction a moisture content of around 10 to 12 \% is used. Thus, this moisture content is also widely considered ideal for earthbag constructions. However, a higher moisture content increases the compression strength of the earthbags. While a higher amount of moisture resists high compaction (bags result thicker), it aids activating the electromagnetic charge in the clay. Furthermore a this results in less need for tamping \citep[p. 18]{hunter2004}. % Hier wird eigentlich Minke zitiert...
+Furthermore the desired moisture content depends on personal preferences. A drier mix produces a firmer wall (during construction) and allows constructing several rows of earthbags per day. For a smaller crew completing only about two rows per day a higher moisture content is recommended since it makes tampering easier \citep[p. 19]{hunter2004}.
+
+% Malte: Adobe is made using a clay-rich mixture with enough sand within the mix to provide compressive strength and reduce cracking \citep[p. 5]{hunter2004}. Allgemeine Herstellung von Lehm (für Ziegel)
+
+
+\subsection{Bag Material}
+
+The bag material is an essential element of earthbag building. Most commonly the earthbags consist of polypropylene. Less frequently burlap (hessian) material is used \citep[p. 1]{vadgama2010}. Polypropylene sacks are very common, come in a variety of sizes and easy to obtain. Recycled seed of feed sacks are often even available for free from various sources \citep[p. 2]{kennedy2001}. \citet[p. 22]{hunter2004} identifies two standard bag sizes: 50-lb bags (measuring about 43 cm wide and 75 cm long) and 100-lb bags (measuring 55 cm by 90 cm).  Bag sizes below and above theses standard dimensions are considered unsuitable. Burlap bags can be found in similar dimensional sizes as polypropylene bags.
+
+According to \citet[p. 4]{vadgama2010}, the compressive capacity of the earthbags is limited by the tensile strength of the bag material. If the tensile strength of a bag is known, from a Mohr-Coulomb failure envelope, its compressive capacity can be derived. \citet[p. 20]{vadgama2010} performs tensile tests on 100gsm and 70gsm polypropylene bags and burlap bags under different conditions. It comes out that 100gsm bags have the highest tensile strength and about double the stiffness of the 70gsm polypropylene bags. One sample of bags was previously exposed to UV, rain and snow for 172 days. It was detected, that the exposed material is much more brittle and fails more abrupt when the tensile capacity is reached. However, the maximum tensile strength is not largely reduced. Burlap bags approximately have the same tensile capacity as 70gsm polypropylene bags, but present a much lower strain at tensile limit. Generally speaking, a very high vertical force to cause rupture of the bag material that is unlikely to be reached in common earthbag structures.
+
+Exposure tests, performed by \citet[p. 141]{barnes2009} shows that burlap bags are not susceptible to UV degradation, even without plaster. Polypropylene bags are damaged after 4 month of sunlight exposure in Ethiopia. However, no damage of any bag material can be noticed it is covered by plaster. It needs to make sure that the soil cures (and becomes brick-hard itself) before the bags deteriorate. However, in flood-prone areas it is advisable to maintain the bags always undamaged. In case flood water softens the soil, the bag keeps it in places and allows it to cure again without structural deformation \citep[p. 24]{hunter2004}.
+
+An advantage of burlap bags is that they are no susceptible to UV degradation. However, although the burlap material presents the same tensile strength as common polypropylene bags the bags failed in the single bag compression test conducted by \citet[p. 21]{vadgama2010}. Due to their fibre spacing, tamping and compression of the bags resulted in a significant amount of sand escaping. However \citet[p. 139]{barnes2009} deploys burlap bags for relief housing in Ethiopia, because they are non-toxic, hydrocarbon free and locally available and can hence be considered an environmentally friendly material.
+
+\subsubsection{Tubes}
+
+Polypropylene bags come in a variety of sizes and can also be obtained in tube form \citep[p. 2]{kennedy2001}. Working with a tube rather than individual bags allows "[...]quicker progress, neater work, and less
+joins to plaster into later on" \citep[p. p]{wainwright2008}. Tubes are what manufacturers make the feed bags from (prior to the cut and sew process). According to \citep[p. 24]{hunter2004} tubes are also available in burlap material. 
+
+%Instead of sewing the bags (except the first one) bags can be folded \citep[p. 4]{kennedy2001}.
+
+\subsection{Mortar}
+
+For earthbag buildings it is generally recommended to use two four-point barbed wires as a "Velcro mortar" between courses of bags. This unites the bags and provides tensile strength to the wall structure. The barbed wire furthermore allows the design of corbelled domes. As described in section \ref{str:earthbag_domes} in catenary structures no shear forces occur. However, in corbelled earthbag domes each bag must also withstand horizontal stresses. The barbed wire provides the necessary grip between the bags and inhibits the walls from being pulled apart, withstanding the outwardly directed forces within the structure \citep[p. 25]{hunter2004}.
+
+\citet[p. 22,38]{vadgama2010} conducted shear tests between layers of earthbags. It was found out that by adding barbed wire between the bags, increases the friction coefficient from 0.43 to 0.67. However, burlap bags (even without barbed wire) have a much higher coefficient of 0.89. That means that burlap bags provide the highest frictional resistance against sliding between two earthbags. \citet[p. 39]{vadgama2010} traces this back to the sand which had been forced out from the bags due to the applied normal load (an effect that doesn't occur with polypropylene bags). Still, the effectiveness of the barbed wire is dependent on the density of the granular fill. 
+
+Barbed wire is the commonly used "mortar"-material. However, it is expensive and is industrially produced. Therefore, \citet[p. 139]{barnes2009} replaces barbed wire with locally available thorn acacias plants. 
+
+
+\subsection{Compaction}
+
+Compaction, usually done by hand tampers, is necessary to solidify the soil inside the bags as well as to maintain the level of the earthbag rows consistent (though this is relatively forgiving) \citep[p. 85]{geiger2011}. The moisture in the mixture activates the electromagnetic charge in the clay. This, accompanied by the vibrations from tamping, increases the clay's binding power, and ultimately, increasing compression strength \citep[p. 18]{hunter2004}. 
+
+\citet[p. 38]{hunter2004} recommends two sizes of tampers: So called heavy "full pounders"  are used to compact the bags after an entire row has been laid. The lighter "quarter pounders" are primarily used inside the bags to pre-tamp the soil or shape the bag into a specific conformation (e.g. an arch opening). It is recommended to self-make the tampers by pouring concrete into a plastic container, together with an adequate pole. \citet[p. 4]{kennedy2001} proposes a tamper that is simply created from a metal pipe, welded to a metal plate. However, it must be ensured that the main tamper (used for an entire rows) is not significantly lighter than 5.5 kg \citep[p. 38]{hunter2004}. Tamping is done until a "ringing" tone is hear and the bag no longer deforms while tamping \citep[p. 4]{kennedy2001}. 
+
+
+\subsection{Plastering}
+% Malte: We only discuss structural aspects (like exterior plastering). Optional aspects (like interior plastering) are not mentioned.
+% Malte: Should colour be separate section?
+
+In earthbag domes the roof consists of the monolithic wall structure itself. Therefore, the plastering of earthbag domes is an essential part of the roof, described in section \ref{str:domes_roof}. In this section only exterior plasters for primarily upright walls (that are not directly exposed to the environment) are discussed. Similar to the materials described in section \ref{str:domes_roof} earth, lime over earth and cement come into consideration as exterior plasters \citep[p. 171]{hunter2004}.
+
+\begin{itemize}
+\item{\textbf{Earthen Plaster} is the simplest method of plastering and absorbs and transpires moisture, helping to regulate internal humidity. Earthen plasters are mainly suitable for dry climates. A clay-rich earthen plaster sticks to the earthbag wall without the need for chicken wire lath. Earthen plaster consists of clay, sand and fiber. As described in section \ref{str:filling_material}, clay is the active ingredient that holds sand and fiber together. Sand provides abrasion resistance, compressive strength and reduces the shrinkage. % Malte: Dies evtl. auch oben erwähnen
+The most commonly used fiber in earthen plasters is straw. It can be derived from the stalk of grains such as oat, wheat, barley and rice. Although most often short, chopped straw is used for plaster, it is recommended to use longer straw for a stronger mix. Similar to chicken wire for cement plasters straw provides tensile strength. Furthermore, it provides resistance to erosion. Other proposed fibers that can be used in addition to long straw are sub-bleached grass clippings, sawdust, slurried cow or horse manure, shredded paper, fibrous tree bark, hemp, sisal, coconut husk, cattail catkins, coarse and short animal hair \citep[pp. 171-173]{hunter2004}. A description of the plastering equipment, the plaster preparation and its application can be found in \citet[pp. 173-180]{hunter2004}}
+
+% Evtl. noch cob erwähnen.
+
+\item{\textbf{Lime Plaster} can be applied over an earthen (base) plaster. It protects the plaster form erosion and allows transpiration of water vapor while reducing water penetration. Lime is a natural substance that has been used as wall protection for thousands of years. Broadly speaking there are two types of lime, differing in their calcium content. A primary difference is in how long it takes them to harden on the wall (carbonization).
+% Malte: Der eine Typ wird von High-calcium limestone gemacht, der andere aus Dolomitic limestone (mit Magnesium). Durch das Brennen wird CO2 abgeschieden. Dies wird hydratisiert. Später wird dann aus dem Hydrated lime mit mehr Wasser wieder Limestone.
+The curing process is of particular importance, because lime needs to cure suitably to ensure proper carbonization. The walls need to be kept damp for at least a weak after application. Lime Wash is a free flowing suspension of hydrated lime in water and can be used as a simple paint \citep[pp. 180-184]{hunter2004}.}
+
+\item{\textbf{Cement Plaster} is generally speaking not recommended by \citet[p. 184]{hunter2004}. A problem is that cement is that cement does not allow water vapor to transpire through it, whereas water passes through it and can accumulate. In addition, cement plaster can only be applied over sand-rich earthbags, since otherwise it is likely to crack (see section \ref{str:domes_roof}). Furthermore, cement manufacturing contributes a significant amount of pollution to our environment. However, in some places where clay does not exist, cement plaster may be the best choice. In order to provide tensile strength, it is recommended to us chicken wire, stucco mesh or extruded plastic mesh in conjunction with cement \citep[pp. 3-6]{kennedy2001}. It is necessary to attach the wire or mesh to the wall. The simplest way to do this is to tack it (with roofing nails) up along its vertical edge onto the wall. In case the soil is too soft, pre-installed tie wires (based on preliminary soil tests) can be used \citep[p. 185]{hunter2004}.}
+
+\end{itemize}
+
+
+\subsection{Foundation}
+
+For earthbag buildings, a variety of foundations are available. The classical foundation used in earthbag construction is the "rubble trench" foundation \citep[78]{geiger2011}. However, also conventional concrete systems can be considered \citep[p. 53]{hunter2004}. The choice of the right foundation mainly depends on the climate. While in many regions frost is the biggest difficulty, in our case, we face problems like heavy rainfalls and floods.
+
+The foundation system can be subdivided into the footer, embedded into an excavated trench, and a stem wall on top of the footer.  
+
+\begin{itemize}
+
+\item{\textbf{Poured Concrete} footers are are the most popular foundation system in conventional construction practices. The standard procedure consists of digging a trench (down to the frost line), and pour a concrete "footer" significantly wider than the width of the wall. Since thick earthbag walls require a wide foundation footer, this defeats resources and the earthbag building's cost effectiveness \citep[p. 54]{hunter2004}. Furthermore the production of cement is harmful to the environment.}
+
+\item{Instead of poured concrete, a \textbf{rubble trench} foundation with a floating footer can be used. This foundation was first popularized by Frank Lloyd Wright in 1922 \citep[83]{geiger2011}. In stead of concrete, Wright filled the trench with rubble stone and packed gravel. Apart from increasind the cost effectiveness and the environmental friendliness, this foundation furthermore allows better drainage since water can continuously percolate to the ground. Earthbag buildings on rubble trench foundations simply use gravity as their anchor to the foundation (no bolts of rebar is needed). \citet[p. 56]{hunter2004} recommends dig a trench 30 cm deep and 10-15 cm wider than the width of the proposed earthbag wall and fill it with coarse rock progressing to smaller gravel towards the top.}
+
+\end{itemize}
+
+The second essential part of the foundation is the "stem wall". The stem wall is intended to connect the wall to the foundation while keeping the wall itself dry. 
+In conventional, poured concrete foundations the stem wall also consists of concrete. Other than the footer, the stem wall is equal to the width of the finished wall. A concrete stem wall can also be used in combination with a floating (rubble trench) footer which at least limits the use of concrete since packed rock substitutes the entire poured concrete footer. In this case it is recommended to fill the first two rows of bags with concrete (serving as a stem wall) \citep[p. 56]{hunter2004}.
+
+\citet[p. 56]{hunter2004} faces the challenge to come up with an entirely cement-free earthbag construction and recommends to make a stem wall (first two or three rows) out of stabilized earth. Stabilized earth is a method of making soil resistant and strong by adding a percentage of stabilizing agent. Latter can be cement, asphalt emulsion or lime.
+
+Cement acts as a binder and adds compression strength to the soil mix. Soil with additional 6 to 15 percent cement (soil cement) is stable when it comes in contact with water and can be used as a stem wall,  minimizing the use of cement (compared to full concrete). It must be remembered that cement is most effective with soils low in clay content. Generally \citet[p. 57]{hunter2004} recommends the use of lime as stabilizer. Other than cement lime is suitable with clay rich soils. Lime takes only one-third the energy to produce than it does cement. Furthermore it reabsorbs the carbon dioxide emitted when it was fired and can be considered a traditional and environmentally friendly material. A drawback of lime as stabilizer is that is must be kept moist over a period of at least two weeks to cure properly. \citep[85]{geiger2011} recommends a stem wall made of double-bags filled with gravel. In flood prone areas this reduces the risk of water damage.
+
+The procedure of mixing and preparing the soil is described in \citet[p. 59]{hunter2004}.
+
+%Especially for domes, the foundations plays an important role since it needs to withstand horizontal (outward-directed) load. 
+
+
+\section{Suitable Earthbag Building for Malawi} \label{str:example_buildings}
+
+Having regard to the technical properties, costs and environmental friendliness of the different materials and design principals of \acp{EBH}, we identified a suitable \ac{EBH} design for Malawi. This is an upright, rectilinear \ac{EBH} with a corrugated metal roof, based on a rubble trench foundation with a lime stabilized stem wall. 
+% Malte: Das müssen wir besprechen, ist aber mein Vorschlag.
+
+\subsubsection{Selection of Materials} \label{str:material_selection}
+
+\begin{itemize}
+
+\item{Upright walls, because fits better to the other houses, is saver, easier to fix, easier to protect against rain...}
+
+\item{Rubble trench foundation...}
+
+\end{itemize}
+
+\subsubsection{Cost Analysis} \label{str:cost_analysis}
+
+Calculation of quantities: Z.B. Jacaranda House nachzählen.
+
+% Assumptions: Labor is for free (people build their own house). Reasonable time is assumed
+% Tools are not included, since they can be reused...
+
+
+\chapter{Comparision to other Housing Solutions} \label{str:comparison}
+% comparison to adobe bricks:
+
+% Faster (No drying before construction), less moisture ofr earthbags (important when water is precious). Earth composition does not matter too. \citep[p. 5,6]{hunter2004}
+
+\section{Economic Implications} \label{str:economic}
+% Malte: I think Economic Implications are more closely related to technical issues than social impact. Therefore, I changed the order.
+
+\section{Social Impact} \label{str:social}
+
+
+\chapter{Conclusion} \label{str:conclusion}
+% Malte: Where makes earth bag sense?
+
+%Johan: Need of expert knowledge! It is crucial for constructing the houses!
+
