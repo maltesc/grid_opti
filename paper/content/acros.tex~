@@ -1,0 +1,7 @@
+% !TEX root = ../main.tex
+
+\newacro{IKT}{Informations- und Kommunikationstechnologie}
+\newacro{EBH}{earthbag house}
+\newacro{NPH}{naturePROhouse}
+\newacro{UN}{United Nations}
+\newacro{CAQDAS}{computer-assisted qualitative data analysis software}

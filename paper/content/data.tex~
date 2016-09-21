@@ -1,0 +1,14 @@
+% !TEX root = ../main.tex
+
+%\newcommand{\datum}{20. Dezember 2016} % delete this line to display the current date
+\newcommand{\ort}{Flensburg}
+
+\newcommand{\titel}{ToDo}
+\newcommand{\untertitel}{ToDo}
+\newcommand{\autor}{Malte Scharf}
+\newcommand{\adresse}{ToDo}
+\newcommand{\geburtstag}{ToDo}
+\newcommand{\geburtsort}{ToDo}
+\newcommand{\matrikelnr}{ToDo}
+\newcommand{\email}{malte.scharf@studierende.uni-flensburg.de}
+\newcommand{\stichwoerter}{Modelling, Optimization, Electrical Grid}

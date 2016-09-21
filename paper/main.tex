@@ -1,0 +1,124 @@
+% !BIB TS-program = biber
+
+\documentclass[a4paper,12pt]{scrartcl}
+
+% Geometry
+\usepackage{geometry}
+\geometry{a4paper, left=3cm, right=2cm, bottom=4cm}
+
+% Doc Data
+\newcommand{\keywords}{Optimization, Modelling, Electrical Grids}
+
+\author{Malte Scharf}
+\date{\today}
+\title{Modelling and Optimization Final Excecise}
+\subtitle{Simple Grid Optimization}
+
+\usepackage[pdftex,
+            pdfauthor={Malte Scharf},
+            pdftitle={Modelling and Optimization},
+            pdfsubject={},
+            pdfkeywords={\keywords},
+            pdfproducer={Latex with hyperref},
+            pdfcreator={pdflatex}]{hyperref}
+
+
+% Wasserzeichen
+\usepackage{draftwatermark}
+\SetWatermarkText{Draft}
+\SetWatermarkScale{5}
+\SetWatermarkColor[gray]{0.9}
+
+% Language and Font
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% Space and Graphics
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+
+% Math
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+
+% Landscape Format
+\usepackage{pdflscape}
+% PDF Pages
+\usepackage{pdfpages}
+
+% Frames
+\usepackage{framed}
+\definecolor{shadecolor}{rgb}{0.5,0.5,0.5}
+
+% Literature
+\usepackage[
+backend=biber,
+citestyle=authoryear-icomp,    	% Zitierstil
+style=chicago-authordate,
+isbn=false,                % ISBN nicht anzeigen, gleiches geht mit nahezu allen anderen Feldern
+%ibidtracker=true,
+%idemtracker=true,
+% ibidpage=true,
+% pagetracker=true,          % ebd. bei wiederholten Angaben (false=ausgeschaltet, page=Seite, spread=Doppelseite, true=automatisch)
+maxbibnames=50,            % maximale Namen, die im Literaturverzeichnis angezeigt werden (ich wollte alle)
+maxcitenames=2,            % maximale Namen, die im Text angezeigt werden, ab 4 wird u.a. nach den ersten Autor angezeigt
+autocite=inline,           % regelt Aussehen für \autocite (inline=\parancite)
+block=space,               % kleiner horizontaler Platz zwischen den Feldern
+backref=false,             % Seiten anzeigen, auf denen die Referenz vorkommt
+backrefstyle=three+,       % fasst Seiten zusammen, z.B. S. 2f, 6ff, 7-10
+date=short,                % Datumsformat
+natbib=true
+]{biblatex}
+
+\setlength{\bibitemsep}{1em}     % Abstand zwischen den Literaturangaben
+\setlength{\bibhang}{0em}        % Einzug nach jeweils erster Zeile
+\bibliography{literature/literature.bib}  % Bibtex-Datei wird schon in der Preambel eingebunden
+\ExecuteBibliographyOptions{sorting=nty}
+\DefineBibliographyStrings{ngerman}{ 
+   andothers = {{et\,al\adddot}},             
+} 
+
+% Quotes
+\usepackage{csquotes}
+
+% Tables
+\usepackage{longtable}
+\usepackage{array}
+
+
+%eigene Commands
+\input{commands/commands.tex}
+
+
+% Akronyme--------
+\usepackage[printonlyused]{acronym}
+\input{content/acros.tex}
+
+
+\makeindex
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+\maketitle
+%\thispagestyle{empty}
+
+%\input{content/abstract.tex}
+
+\tableofcontents
+
+
+\input{content/content.tex}
+
+
+\input{literature/bibliography.tex}
+
+%#Beginn Anhang 
+%\chapter*{Appendix} \label{str:appendix}
+%\input{append/categories.tex}
+
+%\input{formal/erklaerung.txt}
+
+\end{document}
