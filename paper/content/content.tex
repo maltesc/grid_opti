@@ -1,9 +1,75 @@
 % !TEX root = ../main.tex
 
-\section{Introduction} \label{str:intro}
+\section{Einleitung} \label{str:intro}
 
 Hello
 
-\section{Model} \label{str:model}
+\section{Modellbeschreibung} \label{str:modell}
 
-Für Für
+
+\subsection{Beschreibung des realen Systems} \label{str:reales_system}
+
+Das im Rahmen dieser Arbeit entwickelte Computermodell bildet die Investition in ein noch nicht vorhandenes Elektrizitätssystem ab. Es handelt sich also um eine Neuinvestition, bei der keine Rücksicht auf gewachsene, organisatorische Bedingungen genommen werden muss ("Grüne Wiese Ansatz"). Beim abgebildeten System handelt es sich um zwei miteinander gekoppelte Knotenpunkte (Inselsysteme) denen jeweils eine konkrete, zeitlich variable Last zugeordnet ist. An jedem Punkt steht zudem eine Speichereinheit sowie eine bestimmte Windenergieeinspeisung zur Verfügung. Die beiden Knotenpunkte sind über eine Übertragungsleitung verbunden. Abbildung \ref{img:schema} zeigt eine schematische Darstellung des Systems. Ziel der Optimierung ist eine kostenoptimale Investition in Windenergieanlagen, Speicher und Übertragungsleitungen, die eine Deckung des Bedarf zu jedem Zeitpunkt ermöglicht.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{graphics/model_shema.pdf}
+\caption{Schematische Darstellung des realen Systems}
+\label{img:schema}
+\end{figure}
+
+\subsection{Annahmen und Vereinfachungen} \label{str:annahmen}
+
+Das Modell basiert auf einer diskreten, stündlichen Zeitauflösung. Alle zeitabhängingen Inputdaten (wie Last und Windeinspeisung) werden dem Modell in stündlicher Auflösung übergeben. 
+
+Eine wesentliche Modellreduktion besteht darin, dass die Stromübertragung zwischen den beiden Knotenpunkten verlustfrei geschieht. Die Übertragungsleistung ist lediglich durch die installierte Übertragungskapazität (Entscheidungsvariable) begrenzt. Zudem kann Strom verlustfrei ein- und ausgespeichert werden. Des weiteren ist die pro Zeitschritt eingespeicherte Strommenge nicht begrenzt (was im realen System z.B. durch die begrenzte Turbinenleistung eines Pumpspeicherwerks gegeben sein könnte). Jedoch darf die installierte Speicherkapazität, sprich das maximale Füllniveau (weitere Entscheidungsvariable) nicht überschritten werden. Es wird davon ausgegangen, dass an jedem Knotenpunkt voneinander unabhängige Windbedingungen herrschen. Dem Modell werden somit unabhängige, stündlich aufgelöste Winddaten übergeben. In Abhängigkeit von der Installierten Windleistung (weitere Entscheidungsvariable), ergibt sich daraus eine konkrete, stündlich aufgelöste Windeinspeisung. Des weiteren wird angenommen, dass an jedem Knotenpunkt in jedem Zeitschritt eine unbegrenzte Energiemenge "verpuffen" kann (was in etwa einer Abschaltung von Windenergieanlagen gleichkommt, jedoch auch eine gezielte Speicherentleerung darstellen kann).
+
+\subsection{Mathematische Formulierung} \label{str:mathematisch}
+
+\begin{equation}
+min: T (c_{inv, trns})(1 + c_{op, trns}) + \sum \limits_{l \in L} ( G_{l} (c_{inv, wnd})(1 + c_{op, wnd}) + S_{l} (c_{inv, str})(1 + c_{op, str})) 
+\label{fml:zielfunktion}
+\end{equation}
+
+\begin{equation}
+\sum \limits_{l \in L} (G_{l} * wind_{l, t} - C_{l, t} - load_{l, t} - L_{l, t}), \forall t \in T
+\label{fml:constr1}
+\end{equation}
+
+\begin{equation}
+E_{l, t} = G_{l} * wind_{l, t} - C_{l, t} - load_{l, t} - L_{l, t}, \forall l \in L, \forall t \in T
+\label{fml:constr2}
+\end{equation}
+
+\begin{equation}
+|E_{0, t}| <= T , \forall t \in T
+\label{fml:constr3}
+\end{equation}
+
+\begin{equation}
+F_{l, t} = F_{l, t-1} + C_{l, t-1}, \forall l \in L, \forall t \in T
+\label{fml:constr4}
+\end{equation}
+
+\begin{equation}
+F_{l, t} <= S_{l}, \forall l \in L, \forall t \in T
+\label{fml:constr5}
+\end{equation}
+
+\section{Implementierung} \label{str:implementierung}
+
+\section{Ergebnisse} \label{str:ergebnisse}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{graphics/plot.png}
+\caption{Ergebnisse einer beispielhaften Optimierung einer Woche}
+\label{img:ergebnisse}
+\end{figure}
+
+\section{Zusammenfassung und Ausblick} \label{str:ausblick}
+
+
+
+
+

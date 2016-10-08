@@ -45,9 +45,9 @@ c_i_trans = params[(params['id'] == 1)].iloc[0]['value'] # yearly investment cos
 c_i_wind = params[(params['id'] == 2)].iloc[0]['value'] # yearly investment cost of wind turbin in Euro/(MW*a) 
 c_i_store = params[(params['id'] == 3)].iloc[0]['value'] # yearly investment cost of storage unit in Euro/(MWh*a) 
 
-c_o_trans = params[(params['id'] == 4)].iloc[0]['value'] # yearly op cost of transmission line in %
-c_o_wind = params[(params['id'] == 5)].iloc[0]['value'] # yearly op cost of wind turbin in %
-c_o_store = params[(params['id'] == 6)].iloc[0]['value'] # yearly op cost of storage unit in % 
+c_o_trans = params[(params['id'] == 4)].iloc[0]['value']/100 # yearly op cost of transmission line in %
+c_o_wind = params[(params['id'] == 5)].iloc[0]['value']/100 # yearly op cost of wind turbin in %
+c_o_store = params[(params['id'] == 6)].iloc[0]['value']/100 # yearly op cost of storage unit in % 
 
     # Load (loc dependent)
 df_load = input_data['load']
@@ -227,6 +227,7 @@ df_results.to_csv(tables_dir + '/output_data.csv', sep=';', index=True, header=T
     # Global Plotting Options
 plt.style.use('ggplot')
 plt.rcParams.update({'font.size': 30})
+
     # Creates plot Instance
 f, axarr = plt.subplots(5, sharex=True, figsize=(40, 60))
     
