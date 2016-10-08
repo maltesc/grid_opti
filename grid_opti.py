@@ -227,11 +227,20 @@ df_results.to_csv(tables_dir + '/output_data.csv', sep=';', index=True, header=T
 
 #%% Plots
 
+#plt.figure(figsize=(40, 40))
+f, axarr = plt.subplots(5, sharex=True, figsize=(40, 60))
+    
 for loc in locations:
-    #loc = 0
-    
-    plt.figure(figsize=(40, 20))
-    
+    if loc == 0 :
+        pos_res = 1
+    elif loc == 1:
+        pos_res = 3
+        
+    if loc == 0 :
+        pos_stor = 0
+    elif loc == 1:
+        pos_stor = 4
+        
     y0 = df_results['wind '+str(loc)+' in MWh'] - df_results['load '+str(loc)+' in MWh']
     y0_lab = 'Residual load '+str(loc)+' in MWh/h' 
     
@@ -243,113 +252,107 @@ for loc in locations:
     
     x0 = y0.index
     
-    line = y0.plot(kind='line',
-                   #drawstyle='steps',
-                   legend=True,
-                   color = 'grey',
-                   linewidth=4)    
+    axarr[pos_res].plot(x0, y0, color = 'grey', linewidth=4)   
                    
-    line.fill_between(x0, y0, where=y0<=0, 
+    axarr[pos_res].fill_between(x0, y0, where=y0<=0, 
                       alpha=0.5, 
                       interpolate=True, 
                       color='red')
-    line.fill_between(x0, y0, where=y0>0, 
+    axarr[pos_res].fill_between(x0, y0, where=y0>0, 
                       alpha=0.5, 
                       interpolate=True, 
                       color='green')
-     
-    y1.plot(kind='line',
-            legend=True,
-            color = 'yellow',
-            linewidth=6)
-    y2.plot(kind='line',
-            legend=True,
-            color = 'red',
-            linewidth=6)
+    
+    axarr[pos_res].plot(x0, y1, color = 'yellow', linewidth=6)
+    axarr[pos_res].plot(x0, y2, color = 'red', linewidth=6)
+    
 
                    
-    line.legend(labels=[y0_lab, y1_lab, y2_lab], 
+    axarr[pos_res].legend(labels=[y0_lab, y1_lab, y2_lab], 
                        loc='best')
     
     #line.set_xlabel('Hour of the year')
-    line.set_ylabel('Power in MWh/h')
+    axarr[pos_res].set_ylabel('Power in MWh/h')
     
-    plot_name = 'res_load '+ str(loc)
-    plt.savefig(    charts_dir 
-                    + '/'
-                    + plot_name 
-                    + '.png')
-    
-    plt.clf()
-    plt.cla() 
-    
+
     # Filling Level Figure
-    plt.figure(figsize=(40, 10))
-    
+        
     y4 = df_results['filling_lev '+str(loc)+' in MWh']
     y4_lab = 'Filling level '+str(loc)+' in MWh'    
+   
+
+ 
+    axarr[pos_stor].plot(x0, y4, color = 'grey', linewidth=4) 
     
-    x0 = y4.index
-    
-    line = y4.plot(kind='line',
-                   #drawstyle='steps',
-                   legend=True,
-                   color = 'grey',
-                   linewidth=4)    
-                   
-    line.fill_between(x0, y4, where=y4>=0, 
+    axarr[pos_stor].fill_between(x0, y4, where=y4>=0, 
                       alpha=0.5, 
                       interpolate=True, 
                       color='yellow')
-
-
                    
-    line.legend(labels=[y4_lab], 
+    axarr[pos_stor].legend(labels=[y4_lab], 
                        loc='best')
-    
+
     #line.set_xlabel('Hour of the year')
-    line.set_ylabel('Filling level in MWh')
-    
-    plot_name = 'filling_lev '+ str(loc)
-    plt.savefig(    charts_dir 
-                    + '/'
-                    + plot_name 
-                    + '.png')
-    
-    plt.clf()
-    plt.cla() 
-    
-    # Transmission Figure
-
-plt.figure(figsize=(40, 10))
-
+    axarr[pos_stor].set_ylabel('Filling level in MWh')
+       
+           
 y3 = df_results['transmission_0to1 in MWh']
 y3_lab = 'Transmission 0to1 in MWh/h'
 
-line = y3.plot(kind='line',
-        legend=True,
-        color = 'blue',
-        linewidth=8)    
-x0 = y3.index       
-line.fill_between(x0, y3, where=y3>=0, 
+axarr[2].plot(x0, y3, color = 'blue', linewidth=8) 
+
+axarr[2].fill_between(x0, y3, where=y3<=0, 
                   alpha=0.5, 
                   interpolate=True, 
                   color='grey')
-line.fill_between(x0, y3, where=y3<0, 
+axarr[2].fill_between(x0, y3, where=y3>0, 
                   alpha=0.5, 
                   interpolate=True, 
                   color='darkgrey')
-
-line.legend(labels=[y3_lab], 
-                   loc='best')   
+                      
+axarr[2].legend(labels=[y3_lab], 
+                       loc='best')
+                        
                    
-line.set_ylabel('Transmission in MWh/h')
+axarr[2].set_ylabel('Transmission in MWh/h')
 
-plot_name = 'transmission'
+#plot_name = 'res_load '+ str(loc)
 plt.savefig(    charts_dir 
-                + '/'
-                + plot_name 
-                + '.png')
-
+                    + '/plot.png')
 plt.clf()
 plt.cla() 
+       
+#    # Transmission Figure
+#
+#plt.figure(figsize=(40, 10))
+#
+#y3 = df_results['transmission_0to1 in MWh']
+#y3_lab = 'Transmission 0to1 in MWh/h'
+#
+#line = y3.plot(kind='line',
+#        legend=True,
+#        color = 'blue',
+#        linewidth=8)    
+#x0 = y3.index       
+#line.fill_between(x0, y3, where=y3>=0, 
+#                  alpha=0.5, 
+#                  interpolate=True, 
+#                  color='grey')
+#line.fill_between(x0, y3, where=y3<0, 
+#                  alpha=0.5, 
+#                  interpolate=True, 
+#                  color='darkgrey')
+#
+#line.legend(labels=[y3_lab], 
+#                   loc='best')   
+#                   
+#line.set_ylabel('Transmission in MWh/h')
+#
+#plot_name = 'transmission'
+#plt.savefig(    charts_dir 
+#                + '/'
+#                + plot_name 
+#                + '.png')
+#
+#plt.clf()
+#plt.cla() 
