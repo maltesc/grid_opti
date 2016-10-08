@@ -1,15 +1,10 @@
 % !TEX root = ../main.tex
 
-\section{Einleitung} \label{str:intro}
-
-Hello
-
 \section{Modellbeschreibung} \label{str:modell}
-
 
 \subsection{Beschreibung des realen Systems} \label{str:reales_system}
 
-Das im Rahmen dieser Arbeit entwickelte Computermodell bildet die Investition in ein noch nicht vorhandenes Elektrizitätssystem ab. Es handelt sich also um eine Neuinvestition, bei der keine Rücksicht auf gewachsene, organisatorische Bedingungen genommen werden muss ("Grüne Wiese Ansatz"). Beim abgebildeten System handelt es sich um zwei miteinander gekoppelte Knotenpunkte (Inselsysteme) denen jeweils eine konkrete, zeitlich variable Last zugeordnet ist. An jedem Punkt steht zudem eine Speichereinheit sowie eine bestimmte Windenergieeinspeisung zur Verfügung. Die beiden Knotenpunkte sind über eine Übertragungsleitung verbunden. Abbildung \ref{img:schema} zeigt eine schematische Darstellung des Systems. Ziel der Optimierung ist eine kostenoptimale Investition in Windenergieanlagen, Speicher und Übertragungsleitungen, die eine Deckung des Bedarf zu jedem Zeitpunkt ermöglicht.
+Das im Rahmen dieser Arbeit entwickelte Computermodell bildet die Investition in ein noch nicht vorhandenes Elektrizitätssystem ab. Es handelt sich um eine Neuinvestition, bei der keine Rücksicht auf gewachsene, organisatorische Bedingungen genommen werden muss (\glqq Grüne Wiese Ansatz\grqq). Beim abgebildeten System handelt es sich um zwei miteinander gekoppelte Knotenpunkte (Inselsysteme) denen jeweils eine konkrete, zeitlich variable Last zugeordnet ist. An jedem Punkt steht zudem eine Speichereinheit sowie eine bestimmte Windenergieeinspeisung zur Verfügung. Die beiden Knotenpunkte sind über eine Übertragungsleitung verbunden. Abbildung \ref{img:schema} zeigt eine schematische Darstellung des Systems. Ziel der Optimierung ist eine kostenoptimale Investition in Windenergieanlagen, Speicher und Übertragungsleitungen, die eine Deckung des Bedarf zu jedem Zeitpunkt ermöglicht.
 
 \begin{figure}[htbp]
 \centering
@@ -22,12 +17,87 @@ Das im Rahmen dieser Arbeit entwickelte Computermodell bildet die Investition in
 
 Das Modell basiert auf einer diskreten, stündlichen Zeitauflösung. Alle zeitabhängingen Inputdaten (wie Last und Windeinspeisung) werden dem Modell in stündlicher Auflösung übergeben. 
 
-Eine wesentliche Modellreduktion besteht darin, dass die Stromübertragung zwischen den beiden Knotenpunkten verlustfrei geschieht. Die Übertragungsleistung ist lediglich durch die installierte Übertragungskapazität (Entscheidungsvariable) begrenzt. Zudem kann Strom verlustfrei ein- und ausgespeichert werden. Des weiteren ist die pro Zeitschritt eingespeicherte Strommenge nicht begrenzt (was im realen System z.B. durch die begrenzte Turbinenleistung eines Pumpspeicherwerks gegeben sein könnte). Jedoch darf die installierte Speicherkapazität, sprich das maximale Füllniveau (weitere Entscheidungsvariable) nicht überschritten werden. Es wird davon ausgegangen, dass an jedem Knotenpunkt voneinander unabhängige Windbedingungen herrschen. Dem Modell werden somit unabhängige, stündlich aufgelöste Winddaten übergeben. In Abhängigkeit von der Installierten Windleistung (weitere Entscheidungsvariable), ergibt sich daraus eine konkrete, stündlich aufgelöste Windeinspeisung. Des weiteren wird angenommen, dass an jedem Knotenpunkt in jedem Zeitschritt eine unbegrenzte Energiemenge "verpuffen" kann (was in etwa einer Abschaltung von Windenergieanlagen gleichkommt, jedoch auch eine gezielte Speicherentleerung darstellen kann).
+Eine wesentliche Modellreduktion besteht darin, dass die Stromübertragung zwischen den beiden Knotenpunkten verlustfrei geschieht. Die Übertragungsleistung ist lediglich durch die installierte Übertragungskapazität begrenzt. Zudem kann Strom verlustfrei ein- und ausgespeichert werden. Des weiteren ist die pro Zeitschritt ein- und ausspeicherbare Strommenge nicht begrenzt (was im realen System z.B. durch die begrenzte Turbinenleistung eines Pumpspeicherwerks gegeben sein könnte). Jedoch darf die installierte Speicherkapazität (maximales Füllniveau) nicht überschritten werden. Es wird davon ausgegangen, dass an jedem Knotenpunkt voneinander unabhängige Windbedingungen herrschen. Dem Modell werden somit unabhängige, stündlich aufgelöste Winddaten übergeben. In Abhängigkeit von der Installierten Windleistung, ergibt sich daraus eine konkrete, stündlich aufgelöste Windeinspeisung. Des weiteren wird angenommen, dass an jedem Knotenpunkt in jedem Zeitschritt eine unbegrenzte Energiemenge \glqq verpuffen\grqq{} kann (was in etwa einer Abschaltung von Windenergieanlagen gleichkommt, jedoch auch eine gezielte Speicherentleerung darstellen kann).
 
 \subsection{Mathematische Formulierung} \label{str:mathematisch}
 
+Das in Abschnitt \ref{str:modell} beschriebene Investitionsmodell, kann als lineares (Un-)Gleichungssystem formuliert werden und ist damit linear optimierbar. Hierfür werden die in Tabelle \ref{tab:variablen} zusammengefassten Entscheidungsvariablen definiert \footnote{Entscheidungsvariablen werden in der mathematischen Formulierungen dieser Arbeit als Großbuchstaben dargestellt}. Die wesentlichen Variablen stellen dabei $Tr$, $G_{l}$ und $S_{l}$ dar, da diese in der Zielfunktion (Funktion \ref{fml:zielfunktion}) auftreten. Hierbei ist zu beachte, dass $Tr$ nur einmal auftritt, $G_{l}$ und $S_{l}$ hingegen für jeden der beiden Orte ($l \in L$) definiert sind. Alle weiteren Variablen können als Hilfsvariablen bezeichnet werden.
+
+In Tabelle \ref{tab:parameter} sind die für die Optimierung definierten Parameter zusammengefasst. Alle Investitions- und Betriebskosten werden jeweils durch Skalare beschrieben, während Last und Windgeschwindigkeit zeitlich ($t \in T$) und räumlich ($l \in L$) aufgelöste Parameter sind. 
+
+Wie in Abschnitt \ref{str:reales_system} beschrieben, bildet die Zielfunktion (Funktion \ref{fml:zielfunktion}) die kostenoptimale Investition in Übertragungsleistung, Windenergieanlagen und Speicherkapazität ab. Diese wird durch die technischen Rahmenbedingung (Funktionen \ref{fml:constr1} bis \ref{fml:constr5}) eingeschränkt. Wesentliche Randbedingungn sind die Einhaltung der Gesamtenergiebilanz (Funktion \ref{fml:constr1}), Nichtüberschreitung der Übertragungsleistung (Funktion \ref{fml:constr3}) sowie die Begrenzung durch den maximalen Speicherfüllstand (Funktion \ref{fml:constr5}).
+
+\section{Ergebnisse} \label{str:ergebnisse}
+
+Die in der Excel Mappe (\texttt{input\_data.xls}) enthaltenen Daten beinhalten stündlich aufgelöste Beispielzeitreihen der Last und Windgeschwindigkeit an den beiden Einspeisepunkten (Sheets \texttt{wind} und \texttt{load}) für ein Jahr. Zudem enthält das Sheet \texttt{params} alle für die Optimierung benötigten Parameter. Im Rahmen dieser Arbeit wurde (der Übersichtlichkeit halber) eine beispielhafte Optimierung für eine Woche (168 Stunden) durchgeführt \footnote{Dem Nutzer des Optimierungsmodells steht es frei beliebige Inputzeitreihen und Zeitperioden zu verwenden}.
+
+In Abbildung \ref{img:ergebnisse} sind die wesentlichen Optimierungsergebnisse graphisch dargestellt\footnote{Der Wert \texttt{residual load} berechnet sich aus Windeinspeisung abzüglich der Last}. Zudem wurden im Rahmen der Optimierung die in Tabelle \ref{tab:installiert} zusammengefassten Werte für die Entscheidungsvariablen ermittelt. Alle Eingangsparameter und Zeitreihen können in (\texttt{input\_data.xls}) eingesehen werden. Zusammenfassend soll an dieser Stelle nur erwähnt werden, dass die Last an beiden Punkten in der Beispielwoche ca. zwischen 100 und 300 MWh/h und die Windausbeute zwischen 0 und 50 \% schwankt.
+
+Es lässt sich erkennen, das in diesem Beispielfall die Investitionsentscheidung vor allem allem in Richtung Speicher statt Übertragungsleistung gefällt wurde. Die mögliche Windeinspeisung übertrifft die maximale Übertragungsleistung deutlich. Dieses Ergebnis hängt vor allem von den Werten der kostenbezogenen Eingangsparameter ab. Für den Fall dass von geringeren Investitionskosten für Übertragungsleitungen ausgegangen wird, fällt die Entscheidung deutlich stärker zu Gunsten von Übertragungskapazität aus. 
+
+\section{Zusammenfassung und Ausblick} \label{str:ausblick}
+
+Das im Rahmen dieser Arbeit entwickelte Optimierungsmodell kann für einfache, aus zwei Knotenpunkten bestehende Energiesysteme praktische Verwendung finden. Hierbei könnte es sich um tatsächliche Inselsysteme wie die Sychellen handeln, für die eine Verbindung mittels Übertragungsleitung in Betracht gezogen wird. Für den Fall eines einzigen Einspeise-Typs (wie z.B. Windenergie) kann es ohne wesentliche Anpassungen verwendet werden. Zudem können problemlos weitere Einspeiser und Speichereinheiten mit bestimmten Eingenschaften definiert werden, ohne dafür die Struktur der Implementierung grundlegend zu verändern. Grundlegende Veränderungen sind jedoch notwendig, sobald das Energiesystem durch mehr als zwei Knotenpunkte abgebildet werden soll. In diesem Fall müssen zumindest vereinfachte Lastflussberechnungsverfahren Einzug in das Modell finden. 
+
+\newpage
+\section{Anhang} \label{str:anhang}
+
+\subsection{Mathematische Formulierung}
+\subsubsection*{Tabellen} 
+\begin{table}[htbp]
+\caption{Beschreibung der Entscheidungsvariablen}
+\begin{center}
+\begin{tabular}{c|c} 
+Variable & Beschreibung \\
+\hline \hline
+$Tr$ & Installierte Übertragungskapazität in MW \\
+\hline
+$G_{l}$ & Installierte Windleistung in MW \\
+\hline
+$S_{l}$ & Installierte Speicherkapazität in MWh \\
+\hline
+$C_{l, t}$ & Einspeicherleistung in MWh/h \\
+\hline
+$L_{l, t}$ & Verlustleistung in MWh/h \\
+\hline
+$F_{l, t}$ & Speicherfüllstand in MWh \\
+
+\end{tabular} 
+\end{center}
+\label{tab:variablen}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Beschreibung der Parameter}
+\begin{center}
+\begin{tabular}{c|c} 
+Parameter & Beschreibung \\
+\hline \hline
+$c_{inv, trns}$ & Jährliche Investitionskosten Übertragungsleistung in Euro/MW \\
+\hline
+$c_{op, trns}$ & Anteil Betriebskosten (an Invest.) Übertragungsleistung\\
+\hline
+$c_{inv, wnd}$ & Jährliche Investitionskosten Windenergie in Euro/MW \\
+\hline
+$c_{op, wnd}$ & Anteil Betriebskosten (an Invest.) Windenergie\\
+\hline
+$c_{inv, str}$ & Jährliche Investitionskosten Speicherkapazität in Euro/MWh \\
+\hline
+$c_{op, str}$ & Anteil Betriebskosten (an Invest.) Speicherkapazität\\
+\hline
+$load_{l, t}$ & Last in MWh/h\\
+\hline
+$wind_{l, t}$ & Anteil Vollast (Windgeschwindigkeit) \\
+
+\end{tabular} 
+\end{center}
+\label{tab:parameter}
+\end{table}
+
+\subsubsection*{Gleichungen}
+
 \begin{equation}
-min: T (c_{inv, trns})(1 + c_{op, trns}) + \sum \limits_{l \in L} ( G_{l} (c_{inv, wnd})(1 + c_{op, wnd}) + S_{l} (c_{inv, str})(1 + c_{op, str})) 
+min: Tr (c_{inv, trns})(1 + c_{op, trns}) + \sum \limits_{l \in L} ( G_{l} (c_{inv, wnd})(1 + c_{op, wnd}) + S_{l} (c_{inv, str})(1 + c_{op, str})) 
 \label{fml:zielfunktion}
 \end{equation}
 
@@ -42,7 +112,7 @@ E_{l, t} = G_{l} * wind_{l, t} - C_{l, t} - load_{l, t} - L_{l, t}, \forall l \i
 \end{equation}
 
 \begin{equation}
-|E_{0, t}| <= T , \forall t \in T
+|E_{0, t}| <= Tr , \forall t \in T
 \label{fml:constr3}
 \end{equation}
 
@@ -56,20 +126,36 @@ F_{l, t} <= S_{l}, \forall l \in L, \forall t \in T
 \label{fml:constr5}
 \end{equation}
 
-\section{Implementierung} \label{str:implementierung}
 
-\section{Ergebnisse} \label{str:ergebnisse}
+\subsection{Ergebnisse}
+
+\begin{table}[htbp]
+\caption{Optimierungsergebnisse}
+\begin{center}
+\begin{tabular}{c|c} 
+Variable & Ergebniswert \\
+\hline \hline
+$T$ & 205 MW \\
+\hline
+$G_{0}$ & 2,137 MW \\
+\hline
+$G_{1}$ & 1,474 MW \\
+\hline
+$S_{0}$ & 2,671 MWh \\
+\hline
+$S_{1}$ & 1,731 MWh \\
+
+\end{tabular} 
+\end{center}
+\label{tab:installiert}
+\end{table}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{graphics/plot.png}
-\caption{Ergebnisse einer beispielhaften Optimierung einer Woche}
+\includegraphics[width=.9\textwidth]{graphics/plot.png}
+\caption{Ergebnisse einer beispielhaften Optimierung einer Woche (168 Stunden)}
 \label{img:ergebnisse}
 \end{figure}
-
-\section{Zusammenfassung und Ausblick} \label{str:ausblick}
-
-
 
 
 
