@@ -221,22 +221,25 @@ for loc in locations:
     df_results['transmission_0to1 in MWh'] = [(m.overprod[0, t].value)
                                                 for t in timesteps]    
                                                 
-print (df_results)
+#print (df_results)
+
+df_results.to_csv(tables_dir + '/output_data.csv', sep=';', index=True, header=True)
 
 #%% Plots
 
 for loc in locations:
+    #loc = 0
     
     plt.figure(figsize=(40, 20))
     
     y0 = df_results['wind '+str(loc)+' in MWh'] - df_results['load '+str(loc)+' in MWh']
     y0_lab = 'Residual load '+str(loc)+' in MWh/h' 
     
-    y1 = df_results['charge '+str(loc)+' in MWh/h']
-    y1_lab = 'Charge '+str(loc)+' in MWh'
+    y1 = df_results['charge '+str(loc)+' in MWh']
+    y1_lab = 'Charge '+str(loc)+' in MWh/h'
     
-    y2 = df_results['loss '+str(loc)+' in MWh/h']
-    y2_lab = 'Loss '+str(loc)+' in MWh'  
+    y2 = df_results['loss '+str(loc)+' in MWh']
+    y2_lab = 'Loss '+str(loc)+' in MWh/h'  
     
     x0 = y0.index
     
