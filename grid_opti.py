@@ -10,15 +10,11 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from pyomo.environ import ConcreteModel, Set, Param, Var, Constraint, Objective, Reals, NonNegativeReals, minimize
+from pyomo.environ import ConcreteModel, Set, Var, Constraint, Objective, Reals, NonNegativeReals, minimize
 from pyomo.opt import SolverFactory
 
 import numpy as np
 import os
-
-# Global Plotting Options
-plt.style.use('ggplot')
-plt.rcParams.update({'font.size': 30})
 
 # Creates output folders
 charts_dir = os.getcwd() + "/output_charts"
@@ -223,11 +219,15 @@ for loc in locations:
                                                 
 #print (df_results)
 
+    # Save Results
 df_results.to_csv(tables_dir + '/output_data.csv', sep=';', index=True, header=True)
 
 #%% Plots
 
-#plt.figure(figsize=(40, 40))
+    # Global Plotting Options
+plt.style.use('ggplot')
+plt.rcParams.update({'font.size': 30})
+    # Creates plot Instance
 f, axarr = plt.subplots(5, sharex=True, figsize=(40, 60))
     
 for loc in locations:
@@ -295,7 +295,7 @@ for loc in locations:
     #line.set_xlabel('Hour of the year')
     axarr[pos_stor].set_ylabel('Filling level in MWh')
        
-           
+       # Transmission Figure           
 y3 = df_results['transmission_0to1 in MWh']
 y3_lab = 'Transmission 0to1 in MWh/h'
 
@@ -316,43 +316,9 @@ axarr[2].legend(labels=[y3_lab],
                    
 axarr[2].set_ylabel('Transmission in MWh/h')
 
-#plot_name = 'res_load '+ str(loc)
+
+    # Save Plot
 plt.savefig(    charts_dir 
                     + '/plot.png')
 plt.clf()
 plt.cla() 
-       
-#    # Transmission Figure
-#
-#plt.figure(figsize=(40, 10))
-#
-#y3 = df_results['transmission_0to1 in MWh']
-#y3_lab = 'Transmission 0to1 in MWh/h'
-#
-#line = y3.plot(kind='line',
-#        legend=True,
-#        color = 'blue',
-#        linewidth=8)    
-#x0 = y3.index       
-#line.fill_between(x0, y3, where=y3>=0, 
-#                  alpha=0.5, 
-#                  interpolate=True, 
-#                  color='grey')
-#line.fill_between(x0, y3, where=y3<0, 
-#                  alpha=0.5, 
-#                  interpolate=True, 
-#                  color='darkgrey')
-#
-#line.legend(labels=[y3_lab], 
-#                   loc='best')   
-#                   
-#line.set_ylabel('Transmission in MWh/h')
-#
-#plot_name = 'transmission'
-#plt.savefig(    charts_dir 
-#                + '/'
-#                + plot_name 
-#                + '.png')
-#
-#plt.clf()
-#plt.cla() 
